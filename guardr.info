@@ -1,0 +1,36 @@
+name = Guardr
+description = Drupal distribution for enhanced security of web applications through contributed modules.
+version = 6.x-dev
+core = 6.x
+
+; Core
+
+; Contrib
+
+; Themes
+
+; Settings
+users[admin][uid] = 1
+users[admin][name] = admin
+users[admin][mail] = is@cgraphics.com
+users[admin][roles] = administrator
+users[admin][status] = 1
+
+variables[site_name] = Guardr Distribution
+variables[site_mail] = is@cgraphics.com
+variables[date_default_timezone] = -18000
+variables[date_default_timezone_name] = America/New_York
+variables[date_format_long] = l, F j, Y - g:ia
+variables[date_format_medium] = D, m/d/Y - g:ia
+variables[date_format_short] = m/d/Y - g:ia
+variables[date_format_short_date_and_time] = M. d h:iA
+variables[date_format_short_date_only] = M. d
+variables[date_format_time_only] = h:iA
+variables[date_first_day] = 0
+variables[configurable_timezones] = 0
+variables[error_level] = 0
+variables[user_register] = 0
+
+; Create initial home page node
+
+files[] = guardr.profile
