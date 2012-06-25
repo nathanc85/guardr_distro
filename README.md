@@ -12,4 +12,4 @@ Drupal distribution with common modules for enhancing web applicaiton security.
 
 * TODO - add info on using drush site-install
 
-drush site-install guardr --db-url=mysqli://root:root@127.0.0.1/guardr --account-name=admin --account-pass=admin --account-mail=is@knowclassic.com --site-name=guardr
+drush site-install guardr --db-url=mysqli://root:root@127.0.0.1/guardr --account-name=admin --account-pass=admin --account-mail=dev@knowclassic.com --site-name=guardr

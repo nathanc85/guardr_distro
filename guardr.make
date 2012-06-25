@@ -1,100 +1,91 @@
 ; Drush Make file for the Guardr distribution
-core = 6.x
+core = 7.x
 api = 2
-
-; Drupal core
-; ------------------
-projects[drupal][type] = core
-;projects[drupal][download][type] = git
-;projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-;projects[drupal][download][branch] = 6.x
-;projects[drupal][patch][] = "http://drupal.org/files/786208-bad_judgement_php-d6-diff.patch"
-
 
 ; Modules
 ; -------
 projects[autologout][subdir] = contrib
-projects[autologout][version] = 2.6
+projects[autologout][version] = 2.0-beta1
 
 projects[bad_judgement][subdir] = contrib
-
-projects[cck][subdir] = contrib
-projects[cck][version] = 2.9
+projects[bad_judgement][version] = 1.0-rc39
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 2.3
+projects[diff][version] = 2.0
 
 projects[email_confirm][subdir] = contrib
-projects[email_confirm][version] = 1.5
+projects[email_confirm][version] = 1.0
 
 projects[environment_indicator][subdir] = contrib
 projects[environment_indicator][version] = 1.1
 
 projects[fasttoggle][subdir] = contrib
-projects[fasttoggle][version] = 1.4
+projects[fasttoggle][version] = 1.x-dev
 
 projects[filter_perms][subdir] = contrib
-projects[filter_perms][version] = 1.1
+projects[filter_perms][version] = 1.0
 
 projects[inactive_user][subdir] = contrib
 projects[inactive_user][version] = 1.x-dev
 
-projects[ldap_integration][subdir] = contrib
-projects[ldap_integration][version] = 1.x-dev
+projects[ldap][subdir] = contrib
+projects[ldap][version] = 1.0-beta11
 
 projects[login_security][subdir] = contrib
 projects[login_security][version] = 1.x-dev
 
 projects[mail_logger][subdir] = contrib
-projects[mail_logger][version] = 1.1
+projects[mail_logger][version] = 1.x-dev
 
 projects[password_policy][subdir] = contrib
-projects[password_policy][version] = 1.x-dev
+projects[password_policy][version] = 1.0
 
-projects[protect_critical_users][subdir] = contrib
+projects[permission_watchdog][subdir] = contrib
+projects[permission_watchdog][version] = 1.x-dev
 
 projects[r4032login][subdir] = contrib
-projects[r4032login][version] = 1.x-dev
+projects[r4032login][version] = 1.5
 
 projects[role_delegation][subdir] = contrib
+projects[role_delegation][version] = 1.1
 
 projects[role_watchdog][subdir] = contrib
-
-projects[securesite][subdir] = contrib
-
-projects[semiclean][subdir] = contrib
+projects[role_watchdog][version] = 1.0
 
 projects[session_expire][subdir] = contrib
+projects[session_expire][version] = 1.x-dev
 
 projects[session_limit][subdir] = contrib
+projects[session_limit][version] = 2.x-dev
 
 projects[user_readonly][subdir] = contrib
+projects[user_readonly][version] = 1.3
 
 projects[username_enumeration_prevention][subdir] = contrib
 projects[username_enumeration_prevention][version] = 1.0
 
 projects[views][subdir] = contrib
-
+projects[views][version] = 3.3
 
 ; Features
 ; --------
 
-
 ; Development
 ; -----------
 projects[coder][subdir] = developer
-projects[coder][version] = 2.x-dev
+projects[coder][version] = 1.x-dev
 
 projects[devel][subdir] = developer
 projects[devel][version] = 1.x-dev
 
 projects[hacked][subdir] = developer
-projects[hacked][version] = 2.0-beta8
+projects[hacked][version] = 2.0-beta4
 
 projects[masquerade][subdir] = developer
-projects[masquerade][version] = 1.7
+projects[masquerade][version] = 1.0-rc4
 
 projects[reroute_email][subdir] = developer
+projects[reroute_email][version] = 1.1
 
 projects[schema][subdir] = developer
 projects[schema][version] = 1.x-dev
@@ -102,8 +93,7 @@ projects[schema][version] = 1.x-dev
 ; Themes
 ; ------
 
-
 ; Libraries
 ; ---------
-libraries[profiler][download][type] = get
-libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta2.tar.gz
+projects[profiler][subdir] = libraries
+projects[profiler][version] = 2.0-beta1

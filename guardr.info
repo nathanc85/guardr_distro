@@ -1,9 +1,28 @@
 name = Guardr
 description = Drupal distribution for enhanced security of web applications through contributed modules.
-version = 6.x-dev
-core = 6.x
+version = 7.x-dev
+core = 7.x
 
 ; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
 
 ; Contrib
 
@@ -12,12 +31,12 @@ core = 6.x
 ; Settings
 users[admin][uid] = 1
 users[admin][name] = admin
-users[admin][mail] = is@cgraphics.com
+users[admin][mail] = dev@cgraphics.com
 users[admin][roles] = administrator
 users[admin][status] = 1
 
 variables[site_name] = Guardr Distribution
-variables[site_mail] = is@cgraphics.com
+variables[site_mail] = dev@cgraphics.com
 variables[date_default_timezone] = -18000
 variables[date_default_timezone_name] = America/New_York
 variables[date_format_long] = l, F j, Y - g:ia
