@@ -95,5 +95,6 @@ projects[schema][version] = 1.x-dev
 
 ; Libraries
 ; ---------
-projects[profiler][subdir] = libraries
-projects[profiler][version] = 2.0-beta1
+libraries[profiler][download][type] = git
+libraries[profiler][download][url] = http://git.drupal.org/project/profiler.git
+libraries[profiler][download][tag] = 7.x-2.0-beta1
