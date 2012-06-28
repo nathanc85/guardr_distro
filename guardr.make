@@ -58,6 +58,9 @@ projects[session_expire][version] = 1.x-dev
 projects[session_limit][subdir] = contrib
 projects[session_limit][version] = 2.x-dev
 
+projects[settings_audit_log] = contrib
+projects[settings_audit_log] = 1.1
+
 projects[user_readonly][subdir] = contrib
 projects[user_readonly][version] = 1.3
 
