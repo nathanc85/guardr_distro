@@ -52,6 +52,9 @@ projects[role_delegation][version] = 1.1
 projects[role_watchdog][subdir] = contrib
 projects[role_watchdog][version] = 1.0
 
+projects[semiclean][subdir] = contrib
+projects[semiclean][version] = 1.0
+
 projects[session_expire][subdir] = contrib
 projects[session_expire][version] = 1.x-dev
 
