@@ -1,0 +1,6 @@
+name = Guardr Core
+description = Custom configuration related to the Guardr distribution.
+core = 7.x
+package = Guardr
+files[] = guardr.module
+files[] = guardr.install
