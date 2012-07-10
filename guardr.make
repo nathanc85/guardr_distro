@@ -73,6 +73,9 @@ projects[username_enumeration_prevention][version] = 1.0
 projects[views][subdir] = contrib
 projects[views][version] = 3.3
 
+projects[view_profiles_perms][subdir] = contrib
+projects[view_profiles_perms][version] = 1.x-dev
+
 ; Features
 ; --------
 
