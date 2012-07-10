@@ -50,7 +50,8 @@ variables[date_format_time_only] = h:iA
 variables[date_first_day] = 0
 variables[configurable_timezones] = 0
 variables[error_level] = 0
-variables[user_register] = 0
+variables[user_register] = USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL
+variables[password_policy_show_restrictions] = 1
 
 ; Create initial home page node
 
