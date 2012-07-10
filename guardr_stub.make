@@ -13,7 +13,7 @@ api = 2
 projects[drupal][type] = core
 projects[drupal][download][type] = git
 projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-projects[drupal][download][tag] = 7.12
+projects[drupal][download][tag] = 7.14
 
 ; Install profiles
 ; ----------------

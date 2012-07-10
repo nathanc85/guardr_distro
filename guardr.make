@@ -37,6 +37,9 @@ projects[login_security][version] = 1.x-dev
 projects[mail_logger][subdir] = contrib
 projects[mail_logger][version] = 1.x-dev
 
+projects[paranoia][subdir] = contrib
+projects[paranoia[][version] = 1.0-rc2
+
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.1
 
@@ -72,6 +75,9 @@ projects[username_enumeration_prevention][version] = 1.0
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.3
+
+projects[view_profiles_perms][subdir] = contrib
+projects[view_profiles_perms][version] = 1.x-dev
 
 ; Features
 ; --------
