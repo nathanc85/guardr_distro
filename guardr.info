@@ -23,10 +23,14 @@ dependencies[] = shortcut
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
-dependencies[] = password_policy
-dependencies[] = guardr_core
 
 ; Contrib
+dependencies[] = password_policy
+dependencies[] = r4032login
+
+;Custom
+dependencies[] = guardr_core
+
 
 ; Themes
 
