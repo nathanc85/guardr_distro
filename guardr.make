@@ -31,6 +31,9 @@ projects[inactive_user][version] = 1.x-dev
 projects[ldap][subdir] = contrib
 projects[ldap][version] = 1.0-beta11
 
+projects[login_history][subdir] = contrib
+projects[login_history] = 1.0-beta1
+
 projects[login_security][subdir] = contrib
 projects[login_security][version] = 1.x-dev
 
@@ -54,6 +57,9 @@ projects[role_delegation][version] = 1.1
 
 projects[role_watchdog][subdir] = contrib
 projects[role_watchdog][version] = 1.0
+
+projects[seckit][subdir] = contrib
+projects[seckit] = 1.3
 
 projects[semiclean][subdir] = contrib
 projects[semiclean][version] = 1.0
