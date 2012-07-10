@@ -3,6 +3,40 @@ function guardr_install() {
 
   // Allow visitor account creation with administrative approval.
   variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
+  variable_set('password_policy_show_restrictions', 1);
+
+  //
+  //Setup defaults for password_policy module.
+  //
+  $policy = array();
+  $policy = array(
+    'complexity' => 3,
+    'digit_placement' => 2,
+    'history' => 24,
+    'length' => 8,
+    'letter' => 2,
+    'username' => 1,
+  );
+  $pid = db_insert('password_policy')
+  ->fields(array(
+    'name' => 'Guardr Default',
+    'description' => 'The default password policy implementation included with the Guardr distribution.',
+    'policy' => serialize($policy),
+    'enabled' => 1,
+    'expiration' => '90',
+    'warning' => '7, 14',
+    'created' => REQUEST_TIME,
+  ))
+  ->execute();
+  //Enable authenticated role the above for the default password policy.
+  db_insert('password_policy_role')
+    ->fields(array(
+      'pid' => $pid,
+      'rid' => 2,
+  ))
+   ->execute();
+
+
 
   // Create a Home link in the main menu.
   $item = array(
