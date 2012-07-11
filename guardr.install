@@ -48,7 +48,7 @@ function guardr_install() {
   //Defaults for autologout module.
   //
 
-  //Create out settings array
+  //Create our settings array
   $autologout = array(
     'enabled' => 0,
     'timeout' => 1800,
