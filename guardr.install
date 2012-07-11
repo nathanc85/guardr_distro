@@ -1,7 +1,16 @@
 <?php
 function guardr_install() {
 
-
+  /**
+   * Default configuration for contrib modules.
+   *
+   * Here we do any database related configuration for included modules. These
+   * points of configuration includes both custom db queries and
+   * variable_set(). The only variable's that should be done in here are ones
+   * that require an array of data to be set. Variables that have a single entry (not an
+   * array) should be set in guardr.info under the settings section.
+   *
+   */
 
   //
   //Setup defaults for password_policy module.
@@ -53,6 +62,10 @@ function guardr_install() {
   variable_set('autologout', $autologout);
 
 
+
+  /**
+   * Create custom menu links and update menu.
+   */
 
   // Create a Home link in the main menu.
   $item = array(
