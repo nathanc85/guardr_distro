@@ -27,6 +27,7 @@ dependencies[] = rdf
 ; Contrib
 dependencies[] = autologout
 dependencies[] = email_confirm
+dependencies[] = fasttoggle
 dependencies[] = password_policy
 dependencies[] = r4032login
 
@@ -58,6 +59,7 @@ variables[configurable_timezones] = 0
 variables[error_level] = 0
 variables[user_register] = USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL
 variables[password_policy_show_restrictions] = 1
+variables[fasttoggle_enhance_user_overview_page] = 1
 
 
 
