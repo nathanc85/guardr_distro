@@ -27,6 +27,7 @@ dependencies[] = rdf
 ; Contrib
 dependencies[] = password_policy
 dependencies[] = r4032login
+dependencies[] = autologout
 
 ;Custom
 dependencies[] = guardr_core
