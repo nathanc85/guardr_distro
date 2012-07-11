@@ -26,6 +26,7 @@ dependencies[] = rdf
 
 ; Contrib
 dependencies[] = autologout
+dependencies[] = email_confirm
 dependencies[] = password_policy
 dependencies[] = r4032login
 

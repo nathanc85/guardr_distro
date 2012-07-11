@@ -67,7 +67,7 @@ function guardr_install() {
    * Create custom menu links and update menu.
    */
 
-  // Create a Home link in the main menu.
+  //Create a Home link in the main menu.
   $item = array(
     'link_title' => st('Home'),
     'link_path' => '<front>',
