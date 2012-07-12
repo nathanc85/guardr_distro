@@ -28,6 +28,7 @@ dependencies[] = rdf
 dependencies[] = autologout
 dependencies[] = email_confirm
 dependencies[] = fasttoggle
+dependencies[] = filter_perms
 dependencies[] = password_policy
 dependencies[] = r4032login
 
