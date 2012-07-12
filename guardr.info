@@ -29,6 +29,7 @@ dependencies[] = autologout
 dependencies[] = email_confirm
 dependencies[] = fasttoggle
 dependencies[] = filter_perms
+dependencies[] = inactive_user
 dependencies[] = password_policy
 dependencies[] = r4032login
 
@@ -46,7 +47,6 @@ users[admin][roles] = administrator
 users[admin][status] = 1
 
 variables[site_name] = Guardr Distribution
-variables[site_mail] = dev@cgraphics.com
 variables[date_default_timezone] = -18000
 variables[date_default_timezone_name] = America/New_York
 variables[date_format_long] = l, F j, Y - g:ia
