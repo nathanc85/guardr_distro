@@ -18,7 +18,6 @@ projects[drupal][download][tag] = 7.14
 ; Install profiles
 ; ----------------
 projects[guardr][type] = profile
-projects[guardr][version] = 1.x-dev
 projects[guardr][download][type] = git
 projects[guardr][download][url] = http://git.drupal.org/project/guardr.git
 projects[guardr][download][branch] = 7.x-1.x
