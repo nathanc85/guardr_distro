@@ -1,7 +1,5 @@
 <?php
 function guardr_install() {
-  //Get the site name to use later.
-  $sitename = $_SERVER['SERVER_NAME'];
 
   /**
    * Default configuration for contrib modules.
@@ -64,10 +62,9 @@ function guardr_install() {
   variable_set('autologout', $autologout);
 
   /**
-   * Set core specefic variables
+   * Set core specefic settings.
    */
-  $email = 'no.reply@' . $sitename;
-  variable_set('site_mail', $email);
+  //nothing to see here.
 
 
   /**

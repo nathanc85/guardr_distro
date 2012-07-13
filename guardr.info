@@ -40,11 +40,6 @@ dependencies[] = guardr_core
 ; Themes
 
 ; Settings
-users[admin][uid] = 1
-users[admin][name] = admin
-users[admin][mail] = dev@cgraphics.com
-users[admin][roles] = administrator
-users[admin][status] = 1
 
 variables[site_name] = Guardr Distribution
 variables[date_default_timezone] = -18000
