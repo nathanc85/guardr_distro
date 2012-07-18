@@ -7,9 +7,6 @@ api = 2
 projects[autologout][subdir] = contrib
 projects[autologout][version] = 2.0-beta1
 
-projects[bad_judgement][subdir] = contrib
-projects[bad_judgement][version] = 1.0-rc39
-
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
 
@@ -36,6 +33,9 @@ projects[login_security][version] = 1.x-dev
 
 projects[mail_logger][subdir] = contrib
 projects[mail_logger][version] = 1.x-dev
+
+projects[paranoia][subdir] = contrib
+projects[paranoia][version] = 7.x-1.0-rc2
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.1
