@@ -4,6 +4,7 @@ version = 7.x-dev
 core = 7.x
 
 ; Core
+; ----
 dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
@@ -25,6 +26,7 @@ dependencies[] = file
 dependencies[] = rdf
 
 ; Contrib
+; -------
 dependencies[] = autologout
 dependencies[] = email_confirm
 dependencies[] = fasttoggle
@@ -33,14 +35,15 @@ dependencies[] = inactive_user
 dependencies[] = password_policy
 dependencies[] = r4032login
 
-;Custom
+; Custom
+; ------
 dependencies[] = guardr_core
 
-
 ; Themes
+; ------
 
 ; Settings
-
+; --------
 variables[site_name] = Guardr Distribution
 variables[date_default_timezone] = -18000
 variables[date_default_timezone_name] = America/New_York
@@ -57,6 +60,7 @@ variables[user_register] = USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL
 variables[password_policy_show_restrictions] = 1
 variables[fasttoggle_enhance_user_overview_page] = 1
 
-
+; Content
+; -------
 
 files[] = guardr.profile
