@@ -4,8 +4,14 @@ api = 2
 
 ; Modules
 ; -------
+projects[acl][subdir] = contrib
+projects[acl][version] = 1.0
+
 projects[autologout][subdir] = contrib
 projects[autologout][version] = 2.0-beta1
+
+projects[content_access][subdir] = contrib
+projects[content_access][version] = 1.0
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
@@ -55,9 +61,6 @@ projects[role_watchdog][version] = 1.0
 projects[seckit][subdir] = contrib
 projects[seckit][version] = 1.3
 
-projects[semiclean][subdir] = contrib
-projects[semiclean][version] = 1.0
-
 projects[session_expire][subdir] = contrib
 projects[session_expire][version] = 1.x-dev
 
@@ -79,8 +82,10 @@ projects[views][version] = 3.3
 projects[view_profiles_perms][subdir] = contrib
 projects[view_profiles_perms][version] = 1.x-dev
 
+
 ; Features
 ; --------
+
 
 ; Development
 ; -----------
@@ -102,8 +107,10 @@ projects[reroute_email][version] = 1.1
 projects[schema][subdir] = developer
 projects[schema][version] = 1.x-dev
 
+
 ; Themes
 ; ------
+
 
 ; Libraries
 ; ---------
