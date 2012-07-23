@@ -13,9 +13,6 @@ projects[autologout][version] = 2.0-beta1
 projects[content_access][subdir] = contrib
 projects[content_access][version] = 1.0
 
-projects[diff][subdir] = contrib
-projects[diff][version] = 2.0
-
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.0
 
