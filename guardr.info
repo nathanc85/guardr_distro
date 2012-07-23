@@ -33,16 +33,31 @@ dependencies[] = toolbar
 dependencies[] = update
 dependencies[] = user
 
+
 ; Contrib
 ; -------
 dependencies[] = autologout
 dependencies[] = email_confirm
 dependencies[] = fasttoggle
 dependencies[] = filter_perms
+dependencies[] = hacked
 dependencies[] = inactive_user
+dependencies[] = login_history
+dependencies[] = login_security
+dependencies[] = mail_logger
 dependencies[] = paranoia
 dependencies[] = password_policy
+dependencies[] = permission_watchdog
 dependencies[] = r4032login
+dependencies[] = role_watchdog
+dependencies[] = seckit
+dependencies[] = session_limit
+dependencies[] = settings_audit_log
+dependencies[] = user_readonly
+dependencies[] = username_enumeration_prevention
+dependencies[] = views
+dependencies[] = view_profiles_perms
+
 
 ; Custom
 ; ------
@@ -50,6 +65,7 @@ dependencies[] = guardr_core
 
 ; Themes
 ; ------
+
 
 ; Settings
 ; --------
@@ -59,7 +75,9 @@ variables[user_register] = USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL
 variables[password_policy_show_restrictions] = 1
 variables[fasttoggle_enhance_user_overview_page] = 1
 
+
 ; Content
 ; -------
+
 
 files[] = guardr.profile
