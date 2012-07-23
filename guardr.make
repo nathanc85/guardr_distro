@@ -11,7 +11,10 @@ projects[autologout][subdir] = contrib
 projects[autologout][version] = 2.0-beta1
 
 projects[content_access][subdir] = contrib
-projects[content_access][version] = 1.0
+projects[content_access][version] = 1.2-beta1
+
+projects[ctools][subdir] = contrib
+projects[ctools][version] = 1.0
 
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.0
@@ -38,7 +41,7 @@ projects[mail_logger][subdir] = contrib
 projects[mail_logger][version] = 1.x-dev
 
 projects[paranoia][subdir] = contrib
-projects[paranoia][version] = 7.x-1.0-rc2
+projects[paranoia][version] = 1.0-rc2
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.1
