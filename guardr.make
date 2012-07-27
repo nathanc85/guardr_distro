@@ -70,6 +70,9 @@ projects[session_limit][version] = 2.x-dev
 projects[settings_audit_log][subdir] = contrib
 projects[settings_audit_log][version] = 1.1
 
+projects[settings_audit_log] = contrib
+projects[settings_audit_log] = 1.0
+
 projects[user_readonly][subdir] = contrib
 projects[user_readonly][version] = 1.3
 
