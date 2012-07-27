@@ -37,6 +37,7 @@ dependencies[] = user
 ; Contrib
 ; -------
 dependencies[] = autologout
+dependencies[] = diskfree
 dependencies[] = email_confirm
 dependencies[] = fasttoggle
 dependencies[] = filter_perms
