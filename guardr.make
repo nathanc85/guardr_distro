@@ -92,6 +92,12 @@ projects[view_profiles_perms][version] = 1.x-dev
 
 ; Development
 ; -----------
+projects[backup_migrate][subdir] = developer
+projects[backup_migrate][version] = 2.4
+
+projects[backup_migrate_sftp][subdir] = developer
+projects[backup_migrate_sftp][version] = 1.x-dev
+
 projects[coder][subdir] = developer
 projects[coder][version] = 1.x-dev
 
