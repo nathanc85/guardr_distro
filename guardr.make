@@ -14,13 +14,14 @@ projects[content_access][subdir] = contrib
 projects[content_access][version] = 1.2-beta1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0
+projects[ctools][version] = 1.2
 
 projects[diskfree][subdir] = contrib
 projects[diskfree][version] = 1.1
 
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.0
+projects[email_confirm][patch][url] = http://drupal.org/files/email_confirm-Email_confirmation_sent_during_drupal_installation-1726838.patch
 
 projects[fasttoggle][subdir] = contrib
 projects[fasttoggle][version] = 1.x-dev
@@ -37,17 +38,20 @@ projects[ldap][version] = 1.0-beta11
 projects[login_history][subdir] = contrib
 projects[login_history][version] = 1.0-beta1
 
+projects[login_security][type] = module
 projects[login_security][subdir] = contrib
-projects[login_security][version] = 1.x-dev
+projects[login_security][download][type] = git
+projects[login_security][download][url] = http://git.drupal.org/project/login_security.git
+projects[login_security][download][branch] = 7.x-1.x
 
 projects[mail_logger][subdir] = contrib
 projects[mail_logger][version] = 1.x-dev
 
 projects[paranoia][subdir] = contrib
-projects[paranoia][version] = 1.0-rc2
+projects[paranoia][version] = 1.0
 
 projects[password_policy][subdir] = contrib
-projects[password_policy][version] = 1.1
+projects[password_policy][version] = 1.2
 
 projects[permission_watchdog][subdir] = contrib
 projects[permission_watchdog][version] = 1.x-dev
