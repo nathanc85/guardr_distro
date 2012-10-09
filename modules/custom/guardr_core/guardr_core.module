@@ -1,4 +1,0 @@
-<?php
-// There is nothing to see here yet. This module will be used as a placeholder
-// for custom functionality in the Guardr distribution and also used to issue
-// updates via hook_update_N for the distro's out of the box defaults.
