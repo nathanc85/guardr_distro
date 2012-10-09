@@ -33,7 +33,7 @@ projects[inactive_user][subdir] = contrib
 projects[inactive_user][version] = 1.x-dev
 
 projects[ldap][subdir] = contrib
-projects[ldap][version] = 1.0-beta11
+projects[ldap][version] = 1.0-beta12
 
 projects[login_history][subdir] = contrib
 projects[login_history][version] = 1.0-beta1
@@ -66,7 +66,7 @@ projects[role_watchdog][subdir] = contrib
 projects[role_watchdog][version] = 2.0-beta2
 
 projects[seckit][subdir] = contrib
-projects[seckit][version] = 1.3
+projects[seckit][version] = 1.4
 
 projects[session_expire][subdir] = contrib
 projects[session_expire][version] = 1.x-dev
@@ -81,10 +81,10 @@ projects[username_enumeration_prevention][subdir] = contrib
 projects[username_enumeration_prevention][version] = 1.0
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.3
+projects[views][version] = 3.5
 
 projects[view_profiles_perms][subdir] = contrib
-projects[view_profiles_perms][version] = 1.x-dev
+projects[view_profiles_perms][version] = 1.0
 
 
 ; Features
