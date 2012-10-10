@@ -10,11 +10,23 @@ projects[acl][version] = 1.0
 projects[autologout][subdir] = contrib
 projects[autologout][version] = 2.0-beta1
 
+projects[backup_migrate][subdir] = contrib
+projects[backup_migrate][version] = 2.4
+
+projects[backup_migrate_sftp][subdir] = contrib
+projects[backup_migrate_sftp][version] = 1.x-dev
+
+projects[coder][subdir] = contrib
+projects[coder][version] = 1.x-dev
+
 projects[content_access][subdir] = contrib
 projects[content_access][version] = 1.2-beta1
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
+
+projects[devel][subdir] = contrib
+projects[devel][version] = 1.x-dev
 
 projects[diskfree][subdir] = contrib
 projects[diskfree][version] = 1.1
@@ -28,6 +40,9 @@ projects[fasttoggle][version] = 1.x-dev
 
 projects[filter_perms][subdir] = contrib
 projects[filter_perms][version] = 1.0
+
+projects[hacked][subdir] = contrib
+projects[hacked][version] = 2.0-beta4
 
 projects[inactive_user][subdir] = contrib
 projects[inactive_user][version] = 1.x-dev
@@ -47,6 +62,9 @@ projects[login_security][download][branch] = 7.x-1.x
 projects[mail_logger][subdir] = contrib
 projects[mail_logger][version] = 1.x-dev
 
+projects[masquerade][subdir] = contrib
+projects[masquerade][version] = 1.0-rc4
+
 projects[paranoia][subdir] = contrib
 projects[paranoia][version] = 1.0
 
@@ -59,11 +77,17 @@ projects[permission_watchdog][version] = 1.x-dev
 projects[r4032login][subdir] = contrib
 projects[r4032login][version] = 1.5
 
+projects[reroute_email][subdir] = contrib
+projects[reroute_email][version] = 1.1
+
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
 
 projects[role_watchdog][subdir] = contrib
 projects[role_watchdog][version] = 2.0-beta2
+
+projects[schema][subdir] = contrib
+projects[schema][version] = 1.x-dev
 
 projects[seckit][subdir] = contrib
 projects[seckit][version] = 1.4
@@ -91,41 +115,6 @@ projects[view_profiles_perms][version] = 1.0
 ; ------
 projects[guardr_core][subdir] = contrib
 projects[guardr_core][version] = 1.x-dev
-
-
-; Features
-; --------
-
-
-; Development
-; -----------
-projects[backup_migrate][subdir] = developer
-projects[backup_migrate][version] = 2.4
-
-projects[backup_migrate_sftp][subdir] = developer
-projects[backup_migrate_sftp][version] = 1.x-dev
-
-projects[coder][subdir] = developer
-projects[coder][version] = 1.x-dev
-
-projects[devel][subdir] = developer
-projects[devel][version] = 1.x-dev
-
-projects[hacked][subdir] = developer
-projects[hacked][version] = 2.0-beta4
-
-projects[masquerade][subdir] = developer
-projects[masquerade][version] = 1.0-rc4
-
-projects[reroute_email][subdir] = developer
-projects[reroute_email][version] = 1.1
-
-projects[schema][subdir] = developer
-projects[schema][version] = 1.x-dev
-
-
-; Themes
-; ------
 
 
 ; Libraries
