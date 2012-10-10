@@ -77,19 +77,4 @@ function guardr_install() {
    */
   //nothing to see here.
 
-
-  /**
-   * Create custom menu links and update menu.
-   */
-
-  //Create a Home link in the main menu.
-  $item = array(
-    'link_title' => st('Home'),
-    'link_path' => '<front>',
-    'menu_name' => 'main-menu',
-  );
-  menu_link_save($item);
-
-  // Update the menu router information.
-  menu_rebuild();
 }
