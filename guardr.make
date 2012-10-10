@@ -87,6 +87,12 @@ projects[view_profiles_perms][subdir] = contrib
 projects[view_profiles_perms][version] = 1.0
 
 
+; Custom
+; ------
+projects[guardr_core][subdir] = contrib
+projects[guardr_core][version] = 1.x-dev
+
+
 ; Features
 ; --------
 

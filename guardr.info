@@ -58,6 +58,10 @@ dependencies[] = username_enumeration_prevention
 dependencies[] = views
 dependencies[] = view_profiles_perms
 
+; Custom
+; ------
+dependencies[] = guardr_core
+
 
 ; Themes
 ; ------
