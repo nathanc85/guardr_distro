@@ -56,7 +56,6 @@ dependencies[] = seckit
 dependencies[] = session_limit
 dependencies[] = user_readonly
 dependencies[] = username_enumeration_prevention
-dependencies[] = views
 dependencies[] = view_profiles_perms
 
 

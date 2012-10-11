@@ -22,9 +22,6 @@ projects[coder][version] = 1.x-dev
 projects[content_access][subdir] = contrib
 projects[content_access][version] = 1.2-beta1
 
-projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.2
-
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.x-dev
 
@@ -106,9 +103,6 @@ projects[user_readonly][version] = 1.3
 
 projects[username_enumeration_prevention][subdir] = contrib
 projects[username_enumeration_prevention][version] = 1.0
-
-projects[views][subdir] = contrib
-projects[views][version] = 3.5
 
 projects[view_profiles_perms][subdir] = contrib
 projects[view_profiles_perms][version] = 1.0
