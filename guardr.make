@@ -25,6 +25,9 @@ projects[content_access][version] = 1.2-beta1
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.x-dev
 
+projects[diff][subdir] = contrib
+projects[diff][version] = 2.0
+
 projects[diskfree][subdir] = contrib
 projects[diskfree][version] = 1.1
 
@@ -34,6 +37,9 @@ projects[email_confirm][patch][url] = http://drupal.org/files/email_confirm-Emai
 
 projects[fasttoggle][subdir] = contrib
 projects[fasttoggle][version] = 1.x-dev
+
+projects[field_permissions][subdir] = contrib
+projects[field_permissions][version] = 1.0-beta2
 
 projects[filter_perms][subdir] = contrib
 projects[filter_perms][version] = 1.0
@@ -50,6 +56,9 @@ projects[inactive_user][version] = 1.x-dev
 projects[ldap][subdir] = contrib
 projects[ldap][version] = 1.0-beta12
 
+projects[libraries][subdir] = contrib
+projects[libraries][version] = 2.0
+
 projects[login_history][subdir] = contrib
 projects[login_history][version] = 1.0-beta1
 
@@ -64,6 +73,9 @@ projects[mail_logger][version] = 1.x-dev
 
 projects[masquerade][subdir] = contrib
 projects[masquerade][version] = 1.0-rc4
+
+projects[memcache][subdir] = contrib
+projects[memcache][version] = 1.0
 
 projects[paranoia][subdir] = contrib
 projects[paranoia][version] = 1.0
@@ -91,6 +103,9 @@ projects[schema][version] = 1.x-dev
 
 projects[seckit][subdir] = contrib
 projects[seckit][version] = 1.4
+
+projects[semiclean][subdir] = contrib
+projects[semiclean][version] = 1.0
 
 projects[session_expire][subdir] = contrib
 projects[session_expire][version] = 1.x-dev

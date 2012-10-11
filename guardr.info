@@ -39,6 +39,7 @@ dependencies[] = user
 dependencies[] = autologout
 dependencies[] = diskfree
 dependencies[] = email_confirm
+dependencies[] = diff
 dependencies[] = fasttoggle
 dependencies[] = filter_perms
 dependencies[] = guardr_core
