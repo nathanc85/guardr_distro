@@ -62,11 +62,8 @@ projects[libraries][version] = 2.0
 projects[login_history][subdir] = contrib
 projects[login_history][version] = 1.0-beta1
 
-projects[login_security][type] = module
-projects[login_security][subdir] = contrib
-projects[login_security][download][type] = git
-projects[login_security][download][url] = http://git.drupal.org/project/login_security.git
-projects[login_security][download][branch] = 7.x-1.x
+projects[login_history][subdir] = contrib
+projects[login_history][version] = 1.x-dev
 
 projects[mail_logger][subdir] = contrib
 projects[mail_logger][version] = 1.x-dev
