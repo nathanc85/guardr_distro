@@ -12,6 +12,7 @@ api = 2
 ; ------------------
 projects[drupal][version] = 7.15
 
+
 ; Install profiles
 ; ----------------
 projects[guardr][type] = profile
