@@ -47,7 +47,6 @@ dependencies[] = guardr_core
 dependencies[] = hacked
 dependencies[] = inactive_user
 dependencies[] = libraries
-dependencies[] = login_history
 dependencies[] = login_security
 dependencies[] = mail_logger
 dependencies[] = paranoia
