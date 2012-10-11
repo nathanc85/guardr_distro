@@ -41,6 +41,7 @@ dependencies[] = diskfree
 dependencies[] = email_confirm
 dependencies[] = fasttoggle
 dependencies[] = filter_perms
+dependencies[] = guardr_core
 dependencies[] = hacked
 dependencies[] = inactive_user
 dependencies[] = login_history
@@ -57,10 +58,6 @@ dependencies[] = user_readonly
 dependencies[] = username_enumeration_prevention
 dependencies[] = views
 dependencies[] = view_profiles_perms
-
-; Custom
-; ------
-dependencies[] = guardr_core
 
 
 ; Themes

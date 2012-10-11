@@ -41,6 +41,9 @@ projects[fasttoggle][version] = 1.x-dev
 projects[filter_perms][subdir] = contrib
 projects[filter_perms][version] = 1.0
 
+projects[guardr_core][subdir] = contrib
+projects[guardr_core][version] = 1.x-dev
+
 projects[hacked][subdir] = contrib
 projects[hacked][version] = 2.0-beta4
 
@@ -109,12 +112,6 @@ projects[views][version] = 3.5
 
 projects[view_profiles_perms][subdir] = contrib
 projects[view_profiles_perms][version] = 1.0
-
-
-; Custom
-; ------
-projects[guardr_core][subdir] = contrib
-projects[guardr_core][version] = 1.x-dev
 
 
 ; Libraries
