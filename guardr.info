@@ -51,6 +51,7 @@ dependencies[] = login_security
 dependencies[] = mail_logger
 dependencies[] = paranoia
 dependencies[] = password_policy
+dependencies[] = permission_grid
 dependencies[] = permission_watchdog
 dependencies[] = r4032login
 dependencies[] = role_watchdog
