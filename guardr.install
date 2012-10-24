@@ -13,7 +13,7 @@ function guardr_install() {
    */
 
   /**
-   * Setup defaults for password_policy module.
+   * Set password_policy module defaults.
    */
   $policy = array();
   $policy = array(
@@ -45,7 +45,7 @@ function guardr_install() {
 
 
   /**
-   * Defaults for autologout module.
+   * Set autologout module defaults.
    */
 
   //Create our settings array
@@ -63,18 +63,12 @@ function guardr_install() {
 
   /**
    * Set login_security defaults.
-   */ 
+   */
   variable_set('login_security_activity_threshold', '30');
   variable_set('login_security_host_wrong_count', '35');
   variable_set('login_security_disable_core_login_error', 1);
   variable_set('login_security_last_login_timestamp', 1);
   variable_set('login_security_track_time', '1');
   variable_set('login_security_user_wrong_count', '3');
-
-
-  /**
-   * Set core specefic settings.
-   */
-  //nothing to see here.
 
 }
