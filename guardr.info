@@ -77,8 +77,4 @@ variables[password_policy_show_restrictions] = 1
 variables[fasttoggle_enhance_user_overview_page] = 1
 
 
-; Content
-; -------
-
-
 files[] = guardr.profile
