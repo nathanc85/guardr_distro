@@ -70,7 +70,7 @@ dependencies[] = view_profiles_perms
 
 ; Settings
 ; --------
-; Gneral settings
+; General settings
 variables[site_name] = Guardr Distribution
 variables[error_level] = 0
 variables[user_register] = USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL
