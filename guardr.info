@@ -59,6 +59,7 @@ dependencies[] = schema
 dependencies[] = semiclean
 dependencies[] = seckit
 dependencies[] = session_limit
+dependencies[] = settings_audit_log
 dependencies[] = user_readonly
 dependencies[] = username_enumeration_prevention
 dependencies[] = view_profiles_perms
