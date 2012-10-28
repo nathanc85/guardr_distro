@@ -50,11 +50,11 @@ function guardr_install() {
 
   //Create our settings array
   $autologout = array(
-    'enabled' => 0,
+    'enabled' => 1,
     'timeout' => 1800,
     'use_watchdog' => 1,
     'authenticated user' => 0,
-    'logout_message' => 'You have been automatically logged out do to 30 minuts of inactivity.',
+    'logout_message' => 'You have been automatically logged out due to 30 minutes of inactivity.',
     'redirect_url' => '',
     'refresh_delta' => 0
   );
