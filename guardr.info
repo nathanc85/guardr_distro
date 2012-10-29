@@ -85,9 +85,11 @@ variables[login_security_last_login_timestamp] = 1
 variables[login_security_track_time] = 1
 variables[login_security_user_wrong_count] = 3
 
+; Notification Emails
+; -------------------
 ; Set custom user_mail messages without references to user names or user ids.
 
-; Settings for "Welcome (new user created by administrator)"
+; "Welcome (new user created by administrator)"
 variables[user_mail_register_admin_created_subject] = "An administrator created an account for you at [site:name]"
 variables[user_mail_register_admin_created_body] = "A site administrator at [site:name] has created an account for you. You may now log in by clicking this link or copying and pasting it to your browser:
 
@@ -102,14 +104,14 @@ password: Your password
 
 --  [site:name] team"
 
-; Settings for "Welcome (awaiting approval)"
+; "Welcome (awaiting approval)"
 variables[user_mail_register_pending_approval_subject] = "Account details at [site:name] (pending admin approval)"
 variables[user_mail_register_pending_approval_body] = "Thank you for registering at [site:name]. Your application for an account is currently pending approval. Once it has been approved, you will receive another e-mail containing information about how to log in, set your password, and other details.
 
 
 --  [site:name] team"
 
-; Settings for "Welcome (no approval required)"
+; "Welcome (no approval required)"
 variables[user_mail_register_no_approval_required_subject] = "Account details at [site:name]"
 variables[user_mail_register_no_approval_required_body] = "Thank you for registering at [site:name]. You may now log in by clicking this link or copying and pasting it to your browser:
 
@@ -124,7 +126,7 @@ password: Your password
 
 --  [site:name] team"
 
-; Settings for "Account activation"
+; "Account activation"
 variables[user_mail_status_activated_notify] = 1
 variables[user_mail_status_activated_subject] = "Account details at [site:name] (approved)"
 variables[user_mail_status_activated_body] = "Your account at [site:name] has been activated.
@@ -142,14 +144,14 @@ password: Your password
 
 --  [site:name] team"
 
-; Settings for "Account blocked"
+; "Account blocked"
 variables[user_mail_status_blocked_notify] = 0
 variables[user_mail_status_blocked_subject] = "Account details at [site:name] (blocked)"
 variables[user_mail_status_blocked_body] = "Your account on [site:name] has been blocked.
 
 --  [site:name] team"
 
-; Settings for "Account cancellation confirmation"
+; "Account cancellation confirmation"
 variables[user_mail_cancel_confirm_subject] = "Account cancellation request at [site:name]"
 variables[user_mail_cancel_confirm_body] = "A request to cancel your account has been made at [site:name].
 
@@ -163,14 +165,14 @@ This link expires in one day and nothing will happen if it is not used.
 
 --  [site:name] team"
 
-; Settings for "Account canceled"
+; "Account canceled"
 variables[user_mail_status_canceled_notify] = 0
 variables[user_mail_status_canceled_subject] = "Account details at [site:name] (canceled)"
 variables[user_mail_status_canceled_body] = "Your account on [site:name] has been canceled.
 
 --  [site:name] team"
 
-; Setings for "Password recovery"
+; "Password recovery"
 variables[user_mail_password_reset_subject] = "Replacement login information at [site:name]"
 variables[user_mail_password_reset_body] = "A request to reset the password for your account has been made at [site:name].
 
@@ -181,3 +183,9 @@ You may now log in by clicking this link or copying and pasting it to your brows
 This link can only be used once to log in and will lead you to a page where you can set your password. It expires after one day and nothing will happen if it's not used.
 
 --  [site:name] team"
+
+; Password policy notifications
+variables[password_policy_warning_subject] = "Password expiration warning at !site"
+variables[password_policy_warning_body] = "Your password at !site will expire in less than !days_left day(s).
+
+Please go to !edit_uri to change your password."
