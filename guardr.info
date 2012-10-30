@@ -86,6 +86,13 @@ variables[login_security_last_login_timestamp] = 1
 variables[login_security_track_time] = 1
 variables[login_security_user_wrong_count] = 3
 
+; Set password_policy defaults
+variables[password_policy_new_login_change] = 1
+variables[password_policy_warning_subject] = "Password expiration warning at !site"
+variables[password_policy_warning_body] = "Your password at !site will expire in less than !days_left day(s).
+
+Please go to !edit_uri to change your password."
+
 ; Notification Emails
 ; -------------------
 ; Set custom user_mail messages without references to user names or user ids.
@@ -184,9 +191,3 @@ You may now log in by clicking this link or copying and pasting it to your brows
 This link can only be used once to log in and will lead you to a page where you can set your password. It expires after one day and nothing will happen if it's not used.
 
 --  [site:name] team"
-
-; Password policy notifications
-variables[password_policy_warning_subject] = "Password expiration warning at !site"
-variables[password_policy_warning_body] = "Your password at !site will expire in less than !days_left day(s).
-
-Please go to !edit_uri to change your password."
