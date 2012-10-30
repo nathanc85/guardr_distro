@@ -114,7 +114,7 @@ projects[session_limit][subdir] = contrib
 projects[session_limit][version] = 2.x-dev
 
 projects[settings_audit_log][subdir] = contrib
-projects[settings_audit_log][version] = 7.x-1.2
+projects[settings_audit_log][version] = 1.2
 
 projects[user_readonly][subdir] = contrib
 projects[user_readonly][version] = 1.3
