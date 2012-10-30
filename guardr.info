@@ -76,6 +76,7 @@ variables[error_level] = 0
 variables[user_register] = USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL
 variables[password_policy_show_restrictions] = 1
 variables[fasttoggle_enhance_user_overview_page] = 1
+variables[dblog_row_limit] = 1000000
 
 ; Set login_security module defaults
 variables[login_security_activity_threshold] = 30
