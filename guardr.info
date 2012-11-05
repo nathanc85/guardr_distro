@@ -60,6 +60,7 @@ dependencies[] = semiclean
 dependencies[] = seckit
 dependencies[] = session_limit
 dependencies[] = user_readonly
+dependencies[] = user_registrationpassword
 dependencies[] = username_enumeration_prevention
 dependencies[] = view_profiles_perms
 
@@ -87,7 +88,7 @@ variables[login_security_track_time] = 1
 variables[login_security_user_wrong_count] = 3
 
 ; Set password_policy defaults
-variables[password_policy_new_login_change] = 1
+variables[password_policy_new_login_change] = 0
 variables[password_policy_warning_subject] = "Password expiration warning at !site"
 variables[password_policy_warning_body] = "Your password at !site will expire in less than !days_left day(s).
 
