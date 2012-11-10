@@ -10,7 +10,7 @@ api = 2
 
 ; Drupal core
 ; ------------------
-projects[drupal][version] = 7.16
+projects[drupal][version] = 7.17
 
 
 ; Install profiles
