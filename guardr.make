@@ -117,7 +117,7 @@ projects[settings_audit_log][subdir] = contrib
 projects[settings_audit_log][version] = 1.2
 
 projects[user_readonly][subdir] = contrib
-projects[user_readonly][version] = 1.3
+projects[user_readonly][version] = 1.4
 
 projects[user_registrationpassword][subdir] = contrib
 projects[user_registrationpassword][version] = 1.3
