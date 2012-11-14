@@ -94,6 +94,9 @@ variables[password_policy_warning_body] = "Your password at !site will expire in
 
 Please go to !edit_uri to change your password."
 
+; Set inactive_user defaults
+variables[inactive_user_auto_block] = 7776000
+
 ; Notification Emails
 ; -------------------
 ; Set custom user_mail messages without references to user names or user ids.
