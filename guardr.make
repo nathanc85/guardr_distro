@@ -26,7 +26,7 @@ projects[devel][subdir] = contrib
 projects[devel][version] = 1.x-dev
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 2.0
+projects[diff][version] = 3.2
 
 projects[diskfree][subdir] = contrib
 projects[diskfree][version] = 1.1
