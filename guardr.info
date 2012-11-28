@@ -95,7 +95,15 @@ variables[password_policy_warning_body] = "Your password at !site will expire in
 Please go to !edit_uri to change your password."
 
 ; Set inactive_user defaults
+; --------------------------
 variables[inactive_user_auto_block] = 7776000
+variables[inactive_user_auto_block_warn] = 259200
+variables[inactive_user_block_warn_text] = "We haven't seen you at %sitename since %lastaccess, and we miss you!  This automatic message is to warn you that your account will be disabled in %period unless you come back and visit us before that time.
+
+Please visit us at %siteurl.
+
+Sincerely,
+  %sitename team"
 
 ; Notification Emails
 ; -------------------
