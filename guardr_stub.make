@@ -11,7 +11,7 @@ api = 2
 ; Drupal core
 ; ------------------
 projects[drupal][version] = 7.17
-
+projects[drupal][patch][] = http://drupal.org/files/D7-ssl.patch
 
 ; Install profiles
 ; ----------------
