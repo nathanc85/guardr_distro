@@ -104,6 +104,9 @@ projects[schema][version] = 1.x-dev
 projects[seckit][subdir] = contrib
 projects[seckit][version] = 1.4
 
+projects[security_review][subdir] = contrib
+projects[security_review][version] = 1.0
+
 projects[semiclean][subdir] = contrib
 projects[semiclean][version] = 1.0
 
