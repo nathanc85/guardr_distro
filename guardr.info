@@ -37,6 +37,7 @@ dependencies[] = user
 ; Contrib
 ; -------
 dependencies[] = autologout
+dependencies[] = clear_password_field
 dependencies[] = diskfree
 dependencies[] = email_confirm
 dependencies[] = diff
