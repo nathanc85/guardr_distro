@@ -12,6 +12,7 @@ api = 2
 ; ------------------
 projects[drupal][version] = 7.17
 ; Patch default.settings.php to support MySQL over SSL connections
+; http://drupal.org/node/1824946
 projects[drupal][patch][] = http://drupal.org/files/D7-ssl3.patch
 
 ; Install profiles
