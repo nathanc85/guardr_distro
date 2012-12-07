@@ -72,7 +72,7 @@ projects[mail_logger][subdir] = contrib
 projects[mail_logger][version] = 1.x-dev
 
 projects[masquerade][subdir] = contrib
-projects[masquerade][version] = 1.0-rc4
+projects[masquerade][version] = 1.0-rc5
 
 projects[memcache][subdir] = contrib
 projects[memcache][version] = 1.0
