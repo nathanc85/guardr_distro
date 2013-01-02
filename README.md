@@ -7,18 +7,25 @@ Drupal distribution with common modules for enhancing web applicaiton security.
 * Checkout guardr.git locally
 * Run the following:
 <code>
-	drush make <path-to-moxart>/guardr.make <path-to-make-results>
+drush --no-patch-txt make <path-to-moxart>/guardr.make <path-to-make-results>
 </code>
 
-* TODO - add info on using drush site-install
+Note: --no-patch-txt is optional, but recommended for production use. It prevents the creation of PATCHES.txt files in any project which has patches applied by the Guardr distribution.
 
-drush site-install guardr --db-url=mysqli://root:root@127.0.0.1/guardr --account-name=admin --account-pass=admin --account-mail=dev@knowclassic.com --site-name=guardr
+* And finally install the site with drush site-install
+<code>
+drush si --db-url=mysql://[db_user]:[db_pass]@localhost/[db_name] --account-name=admin --account-pass=[useruser_pass] --account-mail=admin@example.com --site-name=test --site-mail=noreply@example.com guardr
+</code>
 
+* Or if you have drush 5 you can use drush qd to test Guardr
+<code>
+drush qd guardr --root=/path/to/drupal/root --use-existing --profile=guardr --cache -y --watchdog
+</code>
 
 ##Default Settings
 
 ###Password Policy
-*applied by password_policy.module*
+*Applied by password_policy.module*
 
 Passwords are set to expire every 90 days with a warning email sent out 14 & 7 days before it is set to expire.  
 
