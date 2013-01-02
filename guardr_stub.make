@@ -14,6 +14,10 @@ projects[drupal][version] = 7.18
 ; Patch default.settings.php to support MySQL over SSL connections
 ; http://drupal.org/node/1824946
 projects[drupal][patch][] = http://drupal.org/files/D7-ssl3.patch
+; Patch to remove of Drupal core files which should not go into production.
+; http://drupal.org/node/1878172
+projects[drupal][patch][] = http://drupal.org/files/guardr-remove-txt-files-1878172-1.patch
+
 
 ; Install profiles
 ; ----------------
