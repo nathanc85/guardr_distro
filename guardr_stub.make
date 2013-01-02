@@ -16,7 +16,7 @@ projects[drupal][version] = 7.18
 projects[drupal][patch][] = http://drupal.org/files/D7-ssl3.patch
 ; Patch to remove of Drupal core files which should not go into production.
 ; http://drupal.org/node/1878172
-projects[drupal][patch][] = http://drupal.org/files/guardr-remove-txt-files-1878172-2.patch
+projects[drupal][patch][] = http://drupal.org/files/guardr-remove-txt-files-1878172-7.patch
 
 
 ; Install profiles
