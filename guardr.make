@@ -36,7 +36,7 @@ projects[diskfree][version] = 1.1
 
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.0
-projects[email_confirm][patch][url] = http://drupal.org/files/email_confirm-Email_confirmation_sent_during_drupal_installation-1726838.patch
+projects[email_confirm][patch][] = http://drupal.org/files/email_confirm-Email_confirmation_sent_during_drupal_installation-1726838.patch
 
 projects[fasttoggle][subdir] = contrib
 projects[fasttoggle][version] = 1.x-dev
@@ -103,6 +103,7 @@ projects[role_watchdog][version] = 2.0-beta2
 
 projects[schema][subdir] = contrib
 projects[schema][version] = 1.x-dev
+projects[schema][patch][] = http://drupal.org/files/schema-support-datetime-1237974-39.patch
 
 projects[seckit][subdir] = contrib
 projects[seckit][version] = 1.4
