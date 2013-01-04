@@ -8,6 +8,20 @@ profiler_v2('guardr');
 /**
  * Implements hook_form_FORM_ID_alter().
  *
+ * Allows the profile to alter install profile selection form.
+ *
+ * We have to call 'system' here because drupal doesn't seem to pick up on
+ * the hook ('guardr') at this level in the install process.
+ */
+function system_form_install_select_profile_form_alter(&$form, $form_state) {
+   foreach($form['profile'] as $key => $element) {
+     $form['profile'][$key]['#value'] = 'guardr';
+   }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
  * Allows the profile to alter the site configuration form.
  */
 function guardr_form_install_configure_form_alter(&$form, $form_state) {

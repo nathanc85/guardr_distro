@@ -75,10 +75,13 @@ dependencies[] = view_profiles_perms
 ; General settings
 variables[site_name] = Guardr Distribution
 variables[error_level] = 0
-variables[user_register] = USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL
+variables[user_register] = USER_REGISTER_ADMINISTRATORS_ONLY
 variables[password_policy_show_restrictions] = 1
 variables[fasttoggle_enhance_user_overview_page] = 1
 variables[dblog_row_limit] = 1000000
+
+; Guardr_core settings
+variables[guardr_intranet] = 1
 
 ; Set login_security module defaults
 variables[login_security_activity_threshold] = 30
