@@ -59,7 +59,6 @@ dependencies[] = role_watchdog
 dependencies[] = schema
 dependencies[] = security_review
 dependencies[] = semiclean
-dependencies[] = seckit
 dependencies[] = session_limit
 dependencies[] = user_readonly
 dependencies[] = user_registrationpassword
