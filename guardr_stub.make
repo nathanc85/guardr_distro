@@ -10,7 +10,7 @@ api = 2
 
 ; Drupal core
 ; ------------------
-projects[drupal][version] = 7.18
+projects[drupal][version] = 7.19
 ; Patch default.settings.php to support MySQL over SSL connections
 ; http://drupal.org/node/1824946
 projects[drupal][patch][] = http://drupal.org/files/D7-ssl3.patch

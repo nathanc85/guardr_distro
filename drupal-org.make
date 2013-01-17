@@ -1,3 +1,3 @@
 ; Drupal.org release file.
-core = 7.17
+core = 7.19
 api = 2
