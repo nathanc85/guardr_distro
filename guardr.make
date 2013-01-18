@@ -89,6 +89,9 @@ projects[permission_watchdog][version] = 1.x-dev
 projects[r4032login][subdir] = contrib
 projects[r4032login][version] = 1.5
 
+projects[remove_generator][subdir] = contrib
+projects[remove_generator][version] = 1.4
+
 projects[reroute_email][subdir] = contrib
 projects[reroute_email][version] = 1.1
 
