@@ -14,7 +14,7 @@ Note: --no-patch-txt is optional, but recommended for production use. It prevent
 
 * And finally install the site with drush site-install
 <code>
-drush si --db-url=mysql://[db_user]:[db_pass]@localhost/[db_name] --account-name=admin --account-pass=[useruser_pass] --account-mail=admin@example.com --site-name=test --site-mail=noreply@example.com guardr
+drush si --db-url=mysql://[db_user]:[db_pass]@localhost/[db_name] --account-name=admin --account-pass=[useruser_pass] --account-mail=admin@example.com --site-name=test --site-mail=admin@example.com guardr
 </code>
 
 * Or if you have drush 5 you can use drush qd to test Guardr
