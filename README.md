@@ -1,13 +1,13 @@
 # Guardr Distribution
 
-Drupal distribution with common modules for enhancing web applicaiton security.
+Drupal distribution with common modules for enhancing web application security.
 
 ### Local installation
 
 * Checkout guardr.git locally
 * Run the following:
 <code>
-drush --no-patch-txt make <path-to-moxart>/guardr.make <path-to-make-results>
+drush --no-patch-txt make <path-to-guardr>/build-guardr.make <path-to-make-results>
 </code>
 
 Note: --no-patch-txt is optional, but recommended for production use. It prevents the creation of PATCHES.txt files in any project which has patches applied by the Guardr distribution.
