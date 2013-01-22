@@ -106,7 +106,7 @@ projects[schema][version] = 1.x-dev
 projects[schema][patch][] = http://drupal.org/files/schema-support-datetime-1237974-39.patch
 
 projects[seckit][subdir] = contrib
-projects[seckit][version] = 1.4
+projects[seckit][version] = 1.5
 
 projects[security_review][subdir] = contrib
 projects[security_review][version] = 1.0
