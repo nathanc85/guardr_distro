@@ -50,6 +50,9 @@ projects[guardr_core][version] = 1.x-dev
 projects[hacked][subdir] = contrib
 projects[hacked][version] = 2.0-beta4
 
+projects[hide_php_fatal_error][subdir] = contrib
+projects[hide_php_fatal_error][version] = 1.0
+
 projects[inactive_user][subdir] = contrib
 projects[inactive_user][version] = 1.x-dev
 
@@ -88,6 +91,9 @@ projects[permission_watchdog][version] = 1.x-dev
 
 projects[r4032login][subdir] = contrib
 projects[r4032login][version] = 1.5
+
+projects[realname][subdir] = contrib
+projects[realname][version] = 1.0
 
 projects[remove_generator][subdir] = contrib
 projects[remove_generator][version] = 1.4
