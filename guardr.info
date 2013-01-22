@@ -42,7 +42,6 @@ dependencies[] = clear_password_field
 dependencies[] = diskfree
 dependencies[] = email_confirm
 dependencies[] = diff
-dependencies[] = fasttoggle
 dependencies[] = field_permissions
 dependencies[] = filter_perms
 dependencies[] = guardr_core
