@@ -59,7 +59,6 @@ dependencies[] = r4032login
 dependencies[] = realname
 dependencies[] = remove_generator
 dependencies[] = role_watchdog
-dependencies[] = schema
 dependencies[] = security_review
 dependencies[] = semiclean
 dependencies[] = session_limit
