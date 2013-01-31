@@ -63,7 +63,7 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
 
 projects[login_history][subdir] = contrib
-projects[login_history][version] = 1.0-beta1
+projects[login_history][version] = 1.0-beta2
 
 projects[login_security][subdir] = contrib
 projects[login_security][version] = 1.x-dev
