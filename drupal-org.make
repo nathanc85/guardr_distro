@@ -35,8 +35,7 @@ projects[diskfree][subdir] = contrib
 projects[diskfree][version] = 1.1
 
 projects[email_confirm][subdir] = contrib
-projects[email_confirm][version] = 1.0
-projects[email_confirm][patch][] = http://drupal.org/files/email_confirm-Email_confirmation_sent_during_drupal_installation-1726838.patch
+projects[email_confirm][version] = 1.1
 
 projects[field_permissions][subdir] = contrib
 projects[field_permissions][version] = 1.0-beta2
