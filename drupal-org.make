@@ -37,6 +37,9 @@ projects[diskfree][version] = 1.1
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.1
 
+projects[email_noreply][subdir] = contrib
+projects[email_noreply][version] = 1.0-alpha1
+
 projects[field_permissions][subdir] = contrib
 projects[field_permissions][version] = 1.0-beta2
 
