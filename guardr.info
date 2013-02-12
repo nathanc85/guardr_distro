@@ -41,6 +41,7 @@ dependencies[] = autologout
 dependencies[] = clear_password_field
 dependencies[] = diskfree
 dependencies[] = email_confirm
+dependencies[] = email_noreply
 dependencies[] = diff
 dependencies[] = field_permissions
 dependencies[] = filter_perms

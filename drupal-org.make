@@ -37,6 +37,9 @@ projects[diskfree][version] = 1.2
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.1
 
+projects[email_noreply][subdir] = contrib
+projects[email_noreply][version] = 1.0-alpha1
+
 projects[field_permissions][subdir] = contrib
 projects[field_permissions][version] = 1.0-beta2
 
@@ -65,7 +68,7 @@ projects[login_history][subdir] = contrib
 projects[login_history][version] = 1.0-beta2
 
 projects[login_security][subdir] = contrib
-projects[login_security][version] = 1.x-dev
+projects[login_security][version] = 1.0
 
 projects[mail_logger][subdir] = contrib
 projects[mail_logger][version] = 1.x-dev
