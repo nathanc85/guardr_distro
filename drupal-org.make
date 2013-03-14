@@ -14,7 +14,7 @@ projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.4
 
 projects[backup_migrate_sftp][subdir] = contrib
-projects[backup_migrate_sftp][version] = 1.x-dev
+projects[backup_migrate_sftp][version] = 1.0
 
 projects[clear_password_field][subdir] = contrib
 projects[clear_password_field][version] = 1.2
@@ -98,7 +98,7 @@ projects[r4032login][subdir] = contrib
 projects[r4032login][version] = 1.5
 
 projects[realname][subdir] = contrib
-projects[realname][version] = 1.0
+projects[realname][version] = 1.1
 
 projects[remove_generator][subdir] = contrib
 projects[remove_generator][version] = 1.4
@@ -133,6 +133,9 @@ projects[session_limit][version] = 2.x-dev
 
 projects[settings_audit_log][subdir] = contrib
 projects[settings_audit_log][version] = 1.2
+
+projects[token][subdir] = contrib
+projects[token][version] = 1.5
 
 projects[user_readonly][subdir] = contrib
 projects[user_readonly][version] = 1.4

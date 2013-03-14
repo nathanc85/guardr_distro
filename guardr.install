@@ -1,24 +1,23 @@
 <?php
 
 /**
+ * @file
+ * Default configuration of contributed modules.
+ *
+ * Here we do any database related configuration for included modules.
+ * These points of configuration includes both custom db queries and
+ * variable_set(). The only variable's that should be done in here are
+ * ones that require an array of data to be set. Variables that have a
+ * single entry (not an array) should be set in guardr.info under the
+ * settings section.
+ */
+
+/**
  * Implements hook_install().
  */
 function guardr_install() {
 
-  /**
-   * Default configuration for contrib modules.
-   *
-   * Here we do any database related configuration for included modules. These
-   * points of configuration includes both custom db queries and
-   * variable_set(). The only variable's that should be done in here are ones
-   * that require an array of data to be set. Variables that have a single entry (not an
-   * array) should be set in guardr.info under the settings section.
-   *
-   */
-
-  /**
-   * Set password_policy module defaults.
-   */
+  // Set password_policy module defaults.
   $policy = array();
   $policy = array(
     'complexity' => 3,
@@ -29,6 +28,7 @@ function guardr_install() {
     'letter' => 2,
     'username' => 1,
   );
+
   $pid = db_insert('password_policy')
   ->fields(array(
     'name' => 'Guardr Default',
@@ -40,7 +40,8 @@ function guardr_install() {
     'created' => REQUEST_TIME,
   ))
   ->execute();
-  //Enable authenticated role the above for the default password policy.
+
+  // Enable authenticated role the above for the default password policy.
   db_insert('password_policy_role')
     ->fields(array(
       'pid' => $pid,
@@ -48,12 +49,7 @@ function guardr_install() {
   ))
    ->execute();
 
-
-  /**
-   * Set autologout module defaults.
-   */
-
-  //Create our settings array
+  // Set autologout module defaults.
   $autologout = array(
     'enabled' => 1,
     'timeout' => 1800,
@@ -61,9 +57,7 @@ function guardr_install() {
     'authenticated user' => 0,
     'logout_message' => 'You have been automatically logged out due to 30 minutes of inactivity.',
     'redirect_url' => '',
-    'refresh_delta' => 0
+    'refresh_delta' => 0,
   );
-  //Now store out settings.
   variable_set('autologout', $autologout);
-
 }
