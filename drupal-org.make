@@ -62,7 +62,7 @@ projects[ldap][subdir] = contrib
 projects[ldap][version] = 1.0-beta12
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.0
+projects[libraries][version] = 2.1
 
 projects[login_history][subdir] = contrib
 projects[login_history][version] = 1.0-beta2
