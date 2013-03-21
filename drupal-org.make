@@ -83,7 +83,7 @@ projects[memcache][subdir] = contrib
 projects[memcache][version] = 1.0
 
 projects[paranoia][subdir] = contrib
-projects[paranoia][version] = 1.0
+projects[paranoia][version] = 1.x-dev
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.3
