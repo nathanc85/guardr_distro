@@ -46,6 +46,9 @@ projects[field_permissions][version] = 1.0-beta2
 projects[filter_perms][subdir] = contrib
 projects[filter_perms][version] = 1.0
 
+projects[flood_control][subdir] = contrib
+projects[flood_control][version] = 1.0
+
 projects[guardr_core][subdir] = contrib
 projects[guardr_core][version] = 1.x-dev
 

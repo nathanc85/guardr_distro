@@ -45,6 +45,7 @@ dependencies[] = email_noreply
 dependencies[] = diff
 dependencies[] = field_permissions
 dependencies[] = filter_perms
+dependencies[] = flood_control
 dependencies[] = guardr_core
 dependencies[] = hacked
 dependencies[] = hide_php_fatal_error
