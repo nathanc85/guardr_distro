@@ -4,9 +4,6 @@ core = 7.x
 
 ; Modules
 ; -------
-projects[acl][subdir] = contrib
-projects[acl][version] = 1.0
-
 projects[autologout][subdir] = contrib
 projects[autologout][version] = 2.0-beta1
 
@@ -21,9 +18,6 @@ projects[clear_password_field][version] = 1.2
 
 projects[coder][subdir] = contrib
 projects[coder][version] = 1.x-dev
-
-projects[content_access][subdir] = contrib
-projects[content_access][version] = 1.2-beta1
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.x-dev
