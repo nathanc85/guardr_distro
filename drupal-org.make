@@ -47,7 +47,7 @@ projects[guardr_core][subdir] = contrib
 projects[guardr_core][version] = 1.x-dev
 
 projects[hacked][subdir] = contrib
-projects[hacked][version] = 2.0-beta4
+projects[hacked][version] = 2.0-beta5
 
 projects[hide_php_fatal_error][subdir] = contrib
 projects[hide_php_fatal_error][version] = 1.0
