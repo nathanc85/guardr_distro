@@ -8,7 +8,7 @@ projects[autologout][subdir] = contrib
 projects[autologout][version] = 2.0-beta1
 
 projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.5
+projects[backup_migrate][version] = 2.7
 
 projects[backup_migrate_sftp][subdir] = contrib
 projects[backup_migrate_sftp][version] = 1.0
