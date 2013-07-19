@@ -65,7 +65,7 @@ projects[login_history][subdir] = contrib
 projects[login_history][version] = 1.0-beta2
 
 projects[login_security][subdir] = contrib
-projects[login_security][version] = 1.3
+projects[login_security][version] = 1.4
 
 projects[mail_logger][subdir] = contrib
 projects[mail_logger][version] = 1.x-dev
@@ -80,7 +80,7 @@ projects[memcache][subdir] = contrib
 projects[memcache][version] = 1.0
 
 projects[paranoia][subdir] = contrib
-projects[paranoia][version] = 1.1
+projects[paranoia][version] = 1.2
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.3
