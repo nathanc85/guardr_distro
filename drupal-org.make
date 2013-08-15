@@ -16,9 +16,6 @@ projects[backup_migrate_sftp][version] = 1.0
 projects[clear_password_field][subdir] = contrib
 projects[clear_password_field][version] = 1.2
 
-projects[coder][subdir] = contrib
-projects[coder][version] = 1.x-dev
-
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.x-dev
 
