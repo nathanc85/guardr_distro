@@ -96,7 +96,7 @@ projects[remove_generator][version] = 1.4
 
 projects[reroute_email][subdir] = contrib
 projects[reroute_email][version] = 1.x-dev
-; projects[reroute_email][patch][] = https://drupal.org/files/whitelists-1571500-21.patch
+projects[reroute_email][patch][] = https://drupal.org/files/whitelists-1571500-24.patch
 
 projects[role_delegation][subdir] = contrib
 projects[role_delegation][version] = 1.1
