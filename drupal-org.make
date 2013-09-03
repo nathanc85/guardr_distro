@@ -86,7 +86,7 @@ projects[permission_watchdog][subdir] = contrib
 projects[permission_watchdog][version] = 1.x-dev
 
 projects[r4032login][subdir] = contrib
-projects[r4032login][version] = 1.5
+projects[r4032login][version] = 1.6
 
 projects[realname][subdir] = contrib
 projects[realname][version] = 1.1
