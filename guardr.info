@@ -68,6 +68,7 @@ dependencies[] = user_readonly
 dependencies[] = user_registrationpassword
 dependencies[] = username_enumeration_prevention
 dependencies[] = view_profiles_perms
+dependencies[] = x_originating_ip
 
 
 ; Themes
