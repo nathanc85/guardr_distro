@@ -142,7 +142,7 @@ projects[view_profiles_perms][subdir] = contrib
 projects[view_profiles_perms][version] = 1.0
 
 projects[x_originating_ip][subdir] = contrib
-projects[x_originating_ip][version] = 1.0
+projects[x_originating_ip][version] = 1.2
 
 
 ; Libraries
