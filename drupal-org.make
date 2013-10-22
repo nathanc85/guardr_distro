@@ -7,12 +7,6 @@ core = 7.x
 projects[autologout][subdir] = contrib
 projects[autologout][version] = 2.0-beta1
 
-projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.7
-
-projects[backup_migrate_sftp][subdir] = contrib
-projects[backup_migrate_sftp][version] = 1.0
-
 projects[clear_password_field][subdir] = contrib
 projects[clear_password_field][version] = 1.2
 
