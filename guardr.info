@@ -37,25 +37,19 @@ dependencies[] = user
 
 ; Contrib
 ; -------
-dependencies[] = autologout
 dependencies[] = clear_password_field
 dependencies[] = diskfree
 dependencies[] = email_confirm
-dependencies[] = email_noreply
 dependencies[] = diff
 dependencies[] = field_permissions
-dependencies[] = filter_perms
 dependencies[] = flood_control
 dependencies[] = guardr_core
 dependencies[] = hacked
 dependencies[] = hide_php_fatal_error
-dependencies[] = inactive_user
 dependencies[] = libraries
 dependencies[] = login_security
-dependencies[] = mail_logger
 dependencies[] = paranoia
 dependencies[] = password_policy
-dependencies[] = permission_grid
 dependencies[] = permission_watchdog
 dependencies[] = r4032login
 dependencies[] = realname
@@ -64,11 +58,9 @@ dependencies[] = role_watchdog
 dependencies[] = security_review
 dependencies[] = semiclean
 dependencies[] = session_limit
-dependencies[] = user_readonly
 dependencies[] = user_registrationpassword
 dependencies[] = username_enumeration_prevention
 dependencies[] = view_profiles_perms
-dependencies[] = x_originating_ip
 
 
 ; Themes
@@ -105,17 +97,6 @@ variables[password_policy_warning_subject] = "Password expiration warning at !si
 variables[password_policy_warning_body] = "Your password at !site will expire in less than !days_left day(s).
 
 Please go to !edit_uri to change your password."
-
-; Set inactive_user defaults
-; --------------------------
-variables[inactive_user_auto_block] = 7776000
-variables[inactive_user_auto_block_warn] = 259200
-variables[inactive_user_block_warn_text] = "We haven't seen you at %sitename since %lastaccess, and we miss you!  This automatic message is to warn you that your account will be disabled in %period unless you come back and visit us before that time.
-
-Please visit us at %siteurl.
-
-Sincerely,
-  %sitename team"
 
 ; Notification Emails
 ; -------------------

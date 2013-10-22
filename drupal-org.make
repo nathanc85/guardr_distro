@@ -19,14 +19,8 @@ projects[diskfree][version] = 1.1
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.1
 
-projects[email_noreply][subdir] = contrib
-projects[email_noreply][version] = 1.0-alpha1
-
 projects[field_permissions][subdir] = contrib
 projects[field_permissions][version] = 1.0-beta2
-
-projects[filter_perms][subdir] = contrib
-projects[filter_perms][version] = 1.0
 
 projects[flood_control][subdir] = contrib
 projects[flood_control][version] = 1.0
@@ -40,12 +34,6 @@ projects[hacked][version] = 2.0-beta5
 projects[hide_php_fatal_error][subdir] = contrib
 projects[hide_php_fatal_error][version] = 1.0
 
-projects[inactive_user][subdir] = contrib
-projects[inactive_user][version] = 1.x-dev
-
-projects[ldap][subdir] = contrib
-projects[ldap][version] = 1.0-beta12
-
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
 
@@ -54,12 +42,6 @@ projects[login_history][version] = 1.0-beta2
 
 projects[login_security][subdir] = contrib
 projects[login_security][version] = 1.7
-
-projects[mail_logger][subdir] = contrib
-projects[mail_logger][version] = 1.x-dev
-
-projects[masquerade][subdir] = contrib
-projects[masquerade][version] = 1.0-rc5
 
 projects[mass_pwreset][subdir] = contrib
 projects[mass_pwreset][version] = 1.0
@@ -72,9 +54,6 @@ projects[paranoia][version] = 1.2
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.5
-
-projects[permission_grid][subdir] = contrib
-projects[permission_grid][version] = 1.2
 
 projects[permission_watchdog][subdir] = contrib
 projects[permission_watchdog][version] = 1.x-dev
@@ -92,15 +71,8 @@ projects[reroute_email][subdir] = contrib
 projects[reroute_email][version] = 1.x-dev
 projects[reroute_email][patch][] = https://drupal.org/files/whitelists-1571500-26.patch
 
-projects[role_delegation][subdir] = contrib
-projects[role_delegation][version] = 1.1
-
 projects[role_watchdog][subdir] = contrib
 projects[role_watchdog][version] = 2.0-beta2
-
-projects[schema][subdir] = contrib
-projects[schema][version] = 1.x-dev
-projects[schema][patch][] = http://drupal.org/files/schema-support-datetime-1237974-39.patch
 
 projects[seckit][subdir] = contrib
 projects[seckit][version] = 1.7
@@ -123,9 +95,6 @@ projects[settings_audit_log][version] = 1.2
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
-projects[user_readonly][subdir] = contrib
-projects[user_readonly][version] = 1.4
-
 projects[user_registrationpassword][subdir] = contrib
 projects[user_registrationpassword][version] = 1.3
 
@@ -134,9 +103,6 @@ projects[username_enumeration_prevention][version] = 1.0
 
 projects[view_profiles_perms][subdir] = contrib
 projects[view_profiles_perms][version] = 1.0
-
-projects[x_originating_ip][subdir] = contrib
-projects[x_originating_ip][version] = 1.2
 
 
 ; Libraries
