@@ -42,6 +42,7 @@ projects[login_history][version] = 1.0-beta2
 
 projects[login_security][subdir] = contrib
 projects[login_security][version] = 1.7
+projects[login_security][patch][] = https://drupal.org/files/issues/login_security-2074123-16.patch
 
 projects[mass_pwreset][subdir] = contrib
 projects[mass_pwreset][version] = 1.0
