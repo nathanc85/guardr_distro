@@ -74,7 +74,6 @@ variables[site_name] = Guardr Distribution
 variables[error_level] = 0
 variables[user_register] = USER_REGISTER_ADMINISTRATORS_ONLY
 variables[password_policy_show_restrictions] = 1
-variables[fasttoggle_enhance_user_overview_page] = 1
 variables[dblog_row_limit] = 1000000
 variables[update_check_frequency] = 1
 variables[update_check_disabled] = 0
