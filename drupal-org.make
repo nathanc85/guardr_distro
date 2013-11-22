@@ -105,6 +105,5 @@ projects[view_profiles_perms][version] = 1.0
 
 ; Libraries
 ; ---------
-libraries[profiler][download][type] = git
-libraries[profiler][download][url] = http://git.drupal.org/project/profiler.git
-libraries[profiler][download][tag] = 7.x-2.0-beta1
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
