@@ -9,4 +9,4 @@ projects[drupal][version] = 7.24
 projects[drupal][patch][] = http://drupal.org/files/D7-ssl3.patch
 ; Patch to remove of Drupal core files which should not go into production.
 ; http://drupal.org/node/1878172
-projects[drupal][patch][] = https://drupal.org/files/guardr-remove-changelog-txt-1878172-34.patch
+projects[drupal][patch][] = https://drupal.org/files/guardr_remove_changelog_txt-8202979-36.patch
