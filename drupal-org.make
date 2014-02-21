@@ -14,7 +14,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
 
 projects[diskfree][subdir] = contrib
-projects[diskfree][version] = 1.1
+projects[diskfree][version] = 1.3
 
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.1
