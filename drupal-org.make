@@ -41,7 +41,7 @@ projects[login_history][subdir] = contrib
 projects[login_history][version] = 1.0-beta2
 
 projects[login_security][subdir] = contrib
-projects[login_security][version] = 1.8
+projects[login_security][version] = 1.9
 
 projects[mass_pwreset][subdir] = contrib
 projects[mass_pwreset][version] = 1.0
