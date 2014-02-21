@@ -35,7 +35,7 @@ projects[hide_php_fatal_error][subdir] = contrib
 projects[hide_php_fatal_error][version] = 1.0
 
 projects[libraries][subdir] = contrib
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 
 projects[login_history][subdir] = contrib
 projects[login_history][version] = 1.0-beta2
