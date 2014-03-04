@@ -26,7 +26,7 @@ projects[flood_control][subdir] = contrib
 projects[flood_control][version] = 1.0
 
 projects[guardr_core][subdir] = contrib
-projects[guardr_core][version] = 1.x-dev
+projects[guardr_core][version] = 1.0
 
 projects[hacked][subdir] = contrib
 projects[hacked][version] = 2.0-beta5
