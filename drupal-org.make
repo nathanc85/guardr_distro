@@ -59,7 +59,7 @@ projects[r4032login][subdir] = contrib
 projects[r4032login][version] = 1.7
 
 projects[realname][subdir] = contrib
-projects[realname][version] = 1.1
+projects[realname][version] = 1.2
 
 projects[remove_generator][subdir] = contrib
 projects[remove_generator][version] = 1.4
