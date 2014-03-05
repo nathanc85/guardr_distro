@@ -82,6 +82,7 @@ projects[semiclean][version] = 1.0
 projects[session_expire][type] = module
 projects[session_expire][download][type] = git
 projects[session_expire][download][url] = http://git.drupal.org/project/session_expire.git
+projects[session_expire][download][branch] = 7.x-1.x
 projects[session_expire][download][revision] = 384f0fb2521f23b8e66a89e62af643f2c57ff931
 
 projects[session_limit][subdir] = contrib
