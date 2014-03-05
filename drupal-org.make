@@ -65,8 +65,7 @@ projects[remove_generator][subdir] = contrib
 projects[remove_generator][version] = 1.4
 
 projects[reroute_email][subdir] = contrib
-projects[reroute_email][version] = 1.1+28-dev
-projects[reroute_email][patch][] = https://drupal.org/files/whitelists-1571500-26.patch
+projects[reroute_email][version] = 1.1
 
 projects[role_watchdog][subdir] = contrib
 projects[role_watchdog][version] = 2.0-beta2
