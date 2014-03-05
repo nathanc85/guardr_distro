@@ -79,9 +79,6 @@ projects[security_review][version] = 1.1
 projects[semiclean][subdir] = contrib
 projects[semiclean][version] = 1.0
 
-projects[session_expire][subdir] = contrib
-projects[session_expire][version] = 1.0-alpha1+4-dev
-
 projects[session_expire][type] = module
 projects[session_expire][download][type] = git
 projects[session_expire][download][url] = http://git.drupal.org/project/session_expire.git
