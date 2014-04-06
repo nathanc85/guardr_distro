@@ -85,6 +85,7 @@ projects[session_expire][download][type] = git
 projects[session_expire][download][url] = http://git.drupal.org/project/session_expire.git
 projects[session_expire][download][branch] = 7.x-1.x
 projects[session_expire][download][revision] = 384f0fb2521f23b8e66a89e62af643f2c57ff931
+projects[session_expire][patch][] = https://drupal.org/files/deleteQuery_range_not_supported-1832200-3.patch
 
 projects[session_limit][subdir] = contrib
 projects[session_limit][version] = 2.0
