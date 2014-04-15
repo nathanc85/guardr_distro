@@ -4,7 +4,7 @@ Drupal distribution with common modules for enhancing web application security.
 
 ## Use Guardr as the base for a new Drupal project
 
-Download [Guardr 7.x-1.1](http://ftp.drupal.org/files/projects/guardr-7.x-1.1-core.tar.gz) or use drush <code>$ drush dl guardr</code>.
+Download [Guardr 7.x-1.2](http://ftp.drupal.org/files/projects/guardr-7.x-1.2-core.tar.gz) or use drush <code>$ drush dl guardr</code>.
 
 Install Drupal using the Guardr codebase as you would normally, but make sure to select the Guardr profile during the installation process.
 
@@ -59,4 +59,4 @@ Passwords must:
 * Must contain atleast 2 digits
 * Cannot contain the username
 * Be atleast 8 charecters long
-* Cannot match the previous 24 passwords 
+* Cannot match the previous 24 passwords
