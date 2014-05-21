@@ -53,7 +53,7 @@ projects[paranoia][subdir] = contrib
 projects[paranoia][version] = 1.3
 
 projects[password_policy][subdir] = contrib
-projects[password_policy][version] = 1.5
+projects[password_policy][version] = 1.6
 
 projects[r4032login][subdir] = contrib
 projects[r4032login][version] = 1.7
