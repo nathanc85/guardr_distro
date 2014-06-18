@@ -71,7 +71,7 @@ projects[role_watchdog][subdir] = contrib
 projects[role_watchdog][version] = 2.0-beta2
 
 projects[seckit][subdir] = contrib
-projects[seckit][version] = 1.8
+projects[seckit][version] = 1.9
 
 projects[security_review][subdir] = contrib
 projects[security_review][version] = 1.1
