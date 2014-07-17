@@ -4,7 +4,7 @@ Drupal distribution with common modules for enhancing web application security.
 
 ## Use Guardr as the base for a new Drupal project
 
-Download [Guardr 7.x-1.8](http://ftp.drupal.org/files/projects/guardr-7.x-1.8-core.tar.gz) or use drush <code>$ drush dl guardr</code>.
+Download [Guardr 7.x-1.9](http://ftp.drupal.org/files/projects/guardr-7.x-1.9-core.tar.gz) or use drush <code>$ drush dl guardr</code>.
 
 Install Drupal using the Guardr codebase as you would normally, but make sure to select the Guardr profile during the installation process.
 
@@ -51,9 +51,9 @@ $ drush qd guardr --core=guardr --profile=guardr --cache --watchdog --yes
 ###Password Policy
 *Applied by password_policy.module*
 
-Passwords are set to expire every 90 days with a warning email sent out 14 & 7 days before it is set to expire.  
+Passwords are set to expire every 90 days with a warning email sent out 14 & 7 days before it is set to expire.
 
-Passwords must:  
+Passwords must:
 
 * Contain atleast 3 charecter types
 * Must contain atleast 2 digits
