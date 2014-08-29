@@ -38,7 +38,7 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
 
 projects[login_history][subdir] = contrib
-projects[login_history][version] = 1.0-beta2
+projects[login_history][version] = 1.0-beta3
 
 projects[login_security][subdir] = contrib
 projects[login_security][version] = 1.9
