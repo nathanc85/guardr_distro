@@ -56,7 +56,7 @@ projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.9
 
 projects[r4032login][subdir] = contrib
-projects[r4032login][version] = 1.7
+projects[r4032login][version] = 1.8
 
 projects[realname][subdir] = contrib
 projects[realname][version] = 1.2
