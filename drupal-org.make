@@ -74,7 +74,7 @@ projects[seckit][subdir] = contrib
 projects[seckit][version] = 1.9
 
 projects[security_review][subdir] = contrib
-projects[security_review][version] = 1.1
+projects[security_review][version] = 1.2
 
 projects[semiclean][subdir] = contrib
 projects[semiclean][version] = 1.0
