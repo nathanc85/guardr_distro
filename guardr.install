@@ -49,6 +49,21 @@ function guardr_install() {
   ))
    ->execute();
 
+  $passphrase = array(
+    'length' => 20,
+    'username' => 1,
+  );
+
+  db_insert('password_policy')
+  ->fields(array(
+    'name' => 'Guardr Passphrase',
+    'description' => 'An alternate Guardr password policy with fewer complexity restrictions, but a longer character length.',
+    'policy' => serialize($passphrase),
+    'enabled' => 0,
+    'created' => REQUEST_TIME,
+  ))
+  ->execute();
+
   // Set autologout module defaults.
   $autologout = array(
     'enabled' => 1,
