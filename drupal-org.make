@@ -71,6 +71,9 @@ projects[realname][version] = 1.2
 projects[remove_generator][subdir] = contrib
 projects[remove_generator][version] = 1.4
 
+projects[revision_all][subdir] = contrib
+projects[revision_all][version] = 2.1
+
 projects[role_watchdog][subdir] = contrib
 projects[role_watchdog][version] = 2.0-beta2
 

@@ -31,6 +31,7 @@ dependencies[] = password_policy
 dependencies[] = r4032login
 dependencies[] = realname
 dependencies[] = remove_generator
+dependencies[] = revision_all
 dependencies[] = role_watchdog
 dependencies[] = security_review
 dependencies[] = semiclean
