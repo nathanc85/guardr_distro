@@ -46,13 +46,20 @@ function guardr_install() {
       'pid' => $pid,
       'rid' => 2,
   ))
-   ->execute();
+  ->execute();
 
   $admin_role->name = 'administrator';
   user_role_save($admin_role);
 
   $admin_role = user_role_load_by_name('administrator');
   variable_set('user_admin_role', $admin_role->rid);
+
+  db_insert('users_roles')
+    ->fields(array(
+      'uid' => 1,
+      'rid' => $admin_role->rid,
+  ))
+  ->execute();
 
   $administrators = array(
     'punctuation' => 3,
