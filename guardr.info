@@ -48,7 +48,7 @@ dependencies[] = view_profiles_perms
 ; Settings
 ; --------
 ; General settings
-variables[site_name] = Guardr Distribution
+variables[site_name] = Guardr
 variables[error_level] = 0
 variables[user_register] = USER_REGISTER_ADMINISTRATORS_ONLY
 variables[password_policy_show_restrictions] = 1
