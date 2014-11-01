@@ -18,7 +18,6 @@
 function guardr_install() {
 
   // Set password_policy module defaults.
-  $policy = array();
   $policy = array(
     'complexity' => 3,
     'delay' => 24,
@@ -31,7 +30,7 @@ function guardr_install() {
 
   $pid = db_insert('password_policy')
   ->fields(array(
-    'name' => 'Guardr Default',
+    'name' => 'Guardr default',
     'description' => 'The default password policy implementation included with the Guardr distribution.',
     'policy' => serialize($policy),
     'enabled' => 1,
@@ -49,20 +48,54 @@ function guardr_install() {
   ))
    ->execute();
 
+  $administrators = array(
+    'punctuation' => 3,
+    'digit' => 2,
+    'history' => 48,
+    'length' => 12,
+    'letter' => 2,
+    'username' => 1,
+  );
+  $pid = db_insert('password_policy')
+  ->fields(array(
+    'name' => 'Guardr administrator',
+    'description' => 'A tougher password policy for administrator roles.',
+    'policy' => serialize($administrators),
+    'enabled' => 0,
+    'expiration' => '60',
+    'warning' => '7,14',
+    'created' => REQUEST_TIME,
+  ))
+  ->execute();
+
+  db_insert('password_policy_role')
+    ->fields(array(
+      'pid' => $pid,
+      'rid' => 2,
+  ))
+  ->execute();
+
   $passphrase = array(
     'length' => 20,
     'username' => 1,
   );
 
-  db_insert('password_policy')
+  $pid = db_insert('password_policy')
   ->fields(array(
-    'name' => 'Guardr Passphrase',
+    'name' => 'Guardr passphrase',
     'description' => 'An alternate Guardr password policy with fewer complexity restrictions, but a longer character length.',
     'policy' => serialize($passphrase),
     'enabled' => 0,
     'created' => REQUEST_TIME,
   ))
   ->execute();
+
+  db_insert('password_policy_role')
+    ->fields(array(
+      'pid' => $pid,
+      'rid' => 2,
+  ))
+   ->execute();
 
   // Set autologout module defaults.
   $autologout = array(
