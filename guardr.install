@@ -48,6 +48,12 @@ function guardr_install() {
   ))
    ->execute();
 
+  $admin_role->name = 'administrator';
+  user_role_save($admin_role);
+
+  $admin_role = user_role_load_by_name('administrator');
+  variable_set('user_admin_role', $admin_role->rid);
+
   $administrators = array(
     'punctuation' => 3,
     'digit' => 2,
@@ -61,7 +67,7 @@ function guardr_install() {
     'name' => 'Guardr administrator',
     'description' => 'A tougher password policy for administrator roles.',
     'policy' => serialize($administrators),
-    'enabled' => 0,
+    'enabled' => 1,
     'expiration' => '60',
     'warning' => '7,14',
     'created' => REQUEST_TIME,
@@ -71,7 +77,7 @@ function guardr_install() {
   db_insert('password_policy_role')
     ->fields(array(
       'pid' => $pid,
-      'rid' => 2,
+      'rid' => $admin_role->rid,
   ))
   ->execute();
 
