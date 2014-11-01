@@ -43,6 +43,9 @@ projects[login_history][version] = 1.0-beta3
 projects[login_security][subdir] = contrib
 projects[login_security][version] = 1.9
 
+projects[logging_alerts][subdir] = contrib
+projects[logging_alerts][version] = 2.2
+
 projects[mass_pwreset][subdir] = contrib
 projects[mass_pwreset][version] = 1.0
 
