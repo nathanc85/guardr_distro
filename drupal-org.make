@@ -19,6 +19,10 @@ projects[diskfree][version] = 1.3
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.1
 
+projects[ejectorseat][subdir] = contrib
+projects[ejectorseat][version] = 1.0
+projects[ejectorseat][patch][] = https://www.drupal.org/files/issues/ejectorseat-register-autologout-2226873-2.patch
+
 projects[field_permissions][subdir] = contrib
 projects[field_permissions][version] = 1.0-beta2
 
