@@ -105,6 +105,9 @@ projects[username_enumeration_prevention][version] = 1.0
 projects[view_profiles_perms][subdir] = contrib
 projects[view_profiles_perms][version] = 1.0
 
+; Install theme
+; -------------
+projects[shiny][version] = 1.6
 
 ; Libraries
 ; ---------
