@@ -28,6 +28,7 @@ dependencies[] = libraries
 dependencies[] = login_security
 dependencies[] = paranoia
 dependencies[] = password_policy
+dependencies[] = permission_watchdog
 dependencies[] = r4032login
 dependencies[] = realname
 dependencies[] = remove_generator

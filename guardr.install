@@ -129,6 +129,9 @@ function guardr_install() {
     'enable_future' => 1,
   );
   variable_set('revision_all', $revision_all);
+
+  $permission_watchdog = serialize(array('all' => all));
+  variable_set('permission_watchdog_roles', $permission_watchdog);
 }
 
 /**
