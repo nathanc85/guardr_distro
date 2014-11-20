@@ -1,7 +1,7 @@
 name = Guardr
 distribution_name = Guardr
 description = Drupal distribution for enhanced security of web applications through contributed modules.
-version = 7.x-1.0
+version = 7.x-2.1
 core = 7.x
 
 ; Core
