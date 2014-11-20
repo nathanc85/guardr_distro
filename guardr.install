@@ -48,6 +48,7 @@ function guardr_install() {
   ))
   ->execute();
 
+  $admin_role = new stdClass();
   $admin_role->name = 'administrator';
   user_role_save($admin_role);
 
