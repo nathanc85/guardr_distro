@@ -121,10 +121,6 @@ projects[view_profiles_perms][version] = 1.0
 projects[x_originating_ip][subdir] = contrib
 projects[x_originating_ip][version] = 1.2
 
-; Install theme
-; -------------
-projects[shiny][version] = 1.6
-
 ; Libraries
 ; ---------
 libraries[profiler][download][type] = "get"

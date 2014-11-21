@@ -134,31 +134,3 @@ function guardr_install() {
   $permission_watchdog = array('all' => 'all');
   variable_set('permission_watchdog_roles', $permission_watchdog);
 }
-
-/**
- * Implements hook_install_tasks_alter().
- */
-function guardr_install_tasks_alter(&$tasks, $install_state) {
-  $tasks['install_profile_modules']['display_name'] = st('Install Guardr');
-  $tasks['install_configure_form']['display_name'] = st('Configure Guardr');
-
-  // Set the installation theme.
-  _guardr_set_theme('guardr_admin');
-}
-
-/**
- * Force-set a theme at any point during the execution of the request.
- *
- * Drupal doesn't give us the option to set the theme during the installation
- * process and forces enable the maintenance theme too early in the request
- * for us to modify it in a clean way.
- */
-function _guardr_set_theme($target_theme) {
-  if ($GLOBALS['theme'] != $target_theme) {
-    unset($GLOBALS['theme']);
-
-    drupal_static_reset();
-    $GLOBALS['conf']['maintenance_theme'] = $target_theme;
-    _drupal_maintenance_theme();
-  }
-}
