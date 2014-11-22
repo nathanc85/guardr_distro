@@ -23,8 +23,8 @@ projects[ejectorseat][patch][] = https://www.drupal.org/files/issues/ejectorseat
 projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.1
 
-projects[entitycache] = contrib
-projects[entitycache] = 1.2
+projects[entitycache][subdir] = contrib
+projects[entitycache][version] = 1.2
 
 projects[field_permissions][subdir] = contrib
 projects[field_permissions][version] = 1.0-beta2
