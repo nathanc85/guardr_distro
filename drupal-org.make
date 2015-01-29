@@ -57,10 +57,10 @@ projects[mass_pwreset][subdir] = contrib
 projects[mass_pwreset][version] = 1.0
 
 projects[memcache][subdir] = contrib
-projects[memcache][version] = 1.4
+projects[memcache][version] = 1.5
 
 projects[paranoia][subdir] = contrib
-projects[paranoia][version] = 1.3
+projects[paranoia][version] = 1.4
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.10
