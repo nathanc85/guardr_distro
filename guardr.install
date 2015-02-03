@@ -132,6 +132,11 @@ function guardr_install() {
   );
   variable_set('revision_all', $revision_all);
 
+  // PCI v3.0 does not permit shared accounts, so set new sessions to
+  // automatically logout other sessions.
+  variable_set('session_limit_max', 1);
+  variable_set('session_limit_behaviour', 1);
+
   // PCI does not specify to block logins based on IP.
   // Setting an IP block could even DoS users sharing a NAT or corporate proxy.
   variable_set('user_failed_login_ip_window', 0);

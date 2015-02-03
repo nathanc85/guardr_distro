@@ -15,19 +15,24 @@ dependencies[] = user
 
 ; Contrib
 ; -------
+; PCI v3.0 requires 15 minute session timeout.
+dependencies[] = autologout
 dependencies[] = clear_password_field
 dependencies[] = diskfree
 dependencies[] = email_confirm
 dependencies[] = diff
+; Ejector seat pairs with the autologout module.
+dependencies[] = ejectorseat
 dependencies[] = entitycache
 dependencies[] = field_permissions
 dependencies[] = flood_control
 dependencies[] = guardr_core
-dependencies[] = hacked
 dependencies[] = hide_php_fatal_error
 dependencies[] = libraries
 dependencies[] = login_security
 dependencies[] = paranoia
+; PCI v3.0 requires 90 day password expiration
+; and 7 character minimum containing alphabetic and numeric.
 dependencies[] = password_policy
 dependencies[] = permission_watchdog
 dependencies[] = r4032login
@@ -38,6 +43,7 @@ dependencies[] = role_watchdog
 dependencies[] = security_review
 dependencies[] = semiclean
 dependencies[] = session_expire
+; Shared accounts are not permitted by PCI v3.0.
 dependencies[] = session_limit
 dependencies[] = user_registrationpassword
 dependencies[] = username_enumeration_prevention
