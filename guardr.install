@@ -112,12 +112,13 @@ function guardr_install() {
    ->execute();
 
   // Set autologout module defaults.
+  // PCI v3.0 SAQ D 8.1.8 specifies a 15 minute timeout.
   $autologout = array(
     'enabled' => 1,
-    'timeout' => 1800,
+    'timeout' => 900,
     'use_watchdog' => 1,
     'authenticated user' => 0,
-    'logout_message' => 'You have been automatically logged out due to 30 minutes of inactivity.',
+    'logout_message' => 'You have been automatically logged out due to 15 minutes of inactivity.',
     'redirect_url' => '',
     'refresh_delta' => 0,
   );
