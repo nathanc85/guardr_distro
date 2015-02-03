@@ -131,6 +131,15 @@ function guardr_install() {
   );
   variable_set('revision_all', $revision_all);
 
+  // PCI does not specify to block logins based on IP.
+  // Setting an IP block could even DoS users sharing a NAT or corporate proxy.
+  variable_set('user_failed_login_ip_window', 0);
+  // PCI v3.0 SAQ D 8.1.6 limits failures to 6 attempts.
+  variable_set('user_failed_login_user_limit', 6);
+  // PCI v3.0 SAQ D 8.1.2 says lockouts should list 30 minutes,
+  // but doesn't specify the window in which to count attempt failures.
+  variable_set('user_failed_login_user_window', 1800);
+
   $permission_watchdog = array('all' => 'all');
   variable_set('permission_watchdog_roles', $permission_watchdog);
 }
