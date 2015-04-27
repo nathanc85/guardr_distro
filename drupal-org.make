@@ -21,7 +21,7 @@ projects[ejectorseat][version] = 1.0
 projects[ejectorseat][patch][] = https://www.drupal.org/files/issues/ejectorseat-register-autologout-2226873-2.patch
 
 projects[email_confirm][subdir] = contrib
-projects[email_confirm][version] = 1.1
+projects[email_confirm][version] = 1.2
 
 projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 2.0
