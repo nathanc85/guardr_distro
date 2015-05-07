@@ -17,8 +17,5 @@ includes[] = drupal-org-core.make
 ; ----------------
 projects[guardr][type] = profile
 projects[guardr][download][type] = git
-;projects[guardr][download][url] = http://git.drupal.org/project/guardr.git
-;projects[guardr][download][tag] = 7.x-2.11
-
-projects[guardr][download][url] = file:////Users/cg209914/Sites/classic/guardr-distro/guardr_distro
-projects[guardr][download][branch] = 7.x-2.x
+projects[guardr][download][url] = http://git.drupal.org/project/guardr.git
+projects[guardr][download][tag] = 7.x-2.12
