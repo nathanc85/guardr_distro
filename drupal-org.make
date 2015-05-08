@@ -116,7 +116,8 @@ projects[user_registrationpassword][subdir] = contrib
 projects[user_registrationpassword][version] = 1.3
 
 projects[username_enumeration_prevention][subdir] = contrib
-projects[username_enumeration_prevention][version] = 1.0
+projects[username_enumeration_prevention][version] = 1.1
+projects[username_enumeration_prevention][patch][] = https://www.drupal.org/files/issues/username-2483015-2.patch
 
 projects[view_profiles_perms][subdir] = contrib
 projects[view_profiles_perms][version] = 1.0
