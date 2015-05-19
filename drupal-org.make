@@ -62,6 +62,9 @@ projects[mass_pwreset][version] = 1.0
 projects[memcache][subdir] = contrib
 projects[memcache][version] = 1.5
 
+projects[no_autocomplete][subdir] = contrib
+projects[no_autocomplete][version] = 1.1
+
 projects[paranoia][subdir] = contrib
 projects[paranoia][version] = 1.4
 
