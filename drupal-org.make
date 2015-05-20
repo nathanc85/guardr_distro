@@ -116,7 +116,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.6
 
 projects[user_registrationpassword][subdir] = contrib
-projects[user_registrationpassword][version] = 1.3
+projects[user_registrationpassword][version] = 1.4
 
 projects[username_enumeration_prevention][subdir] = contrib
 projects[username_enumeration_prevention][version] = 1.1
