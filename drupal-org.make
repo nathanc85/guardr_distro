@@ -66,7 +66,7 @@ projects[no_autocomplete][subdir] = contrib
 projects[no_autocomplete][version] = 1.1
 
 projects[paranoia][subdir] = contrib
-projects[paranoia][version] = 1.4
+projects[paranoia][version] = 1.5
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.11
