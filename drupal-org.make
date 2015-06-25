@@ -87,7 +87,8 @@ projects[revision_all][subdir] = contrib
 projects[revision_all][version] = 2.1
 
 projects[role_watchdog][subdir] = contrib
-projects[role_watchdog][version] = 2.0-beta2
+projects[role_watchdog][version] = 2.x-dev
+projects[role_watchdog][download][branch] = 7.x-2.x
 
 projects[seckit][subdir] = contrib
 projects[seckit][version] = 1.9
