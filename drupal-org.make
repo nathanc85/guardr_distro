@@ -27,7 +27,7 @@ projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 2.0
 
 projects[entitycache][subdir] = contrib
-projects[entitycache][version] = 1.2
+projects[entitycache][version] = 1.5
 
 projects[field_permissions][subdir] = contrib
 projects[field_permissions][version] = 1.0-beta2
