@@ -24,7 +24,7 @@ projects[email_confirm][subdir] = contrib
 projects[email_confirm][version] = 1.2
 
 projects[encrypt][subdir] = contrib
-projects[encrypt][version] = 2.0
+projects[encrypt][version] = 2.3
 
 projects[entitycache][subdir] = contrib
 projects[entitycache][version] = 1.5
@@ -109,7 +109,7 @@ projects[session_expire][download][revision] = 384f0fb2521f23b8e66a89e62af643f2c
 projects[session_expire][patch][] = https://drupal.org/files/deleteQuery_range_not_supported-1832200-3.patch
 
 projects[session_limit][subdir] = contrib
-projects[session_limit][version] = 2.0
+projects[session_limit][version] = 2.1
 
 projects[settings_audit_log][subdir] = contrib
 projects[settings_audit_log][version] = 1.2
