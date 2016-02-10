@@ -78,7 +78,11 @@ projects[r4032login][subdir] = contrib
 projects[r4032login][version] = 1.8
 
 projects[realname][subdir] = contrib
-projects[realname][version] = 1.2
+projects[realname][type] = module
+projects[realname][download][type] = git
+projects[realname][download][url] = git://git.drupal.org/project/realname.git
+projects[realname][download][branch] = 7.x-1.x
+projects[realname][download][revision] = 425d6307eba622f9e7886d600805103aace09360 
 projects[realname][patch][] = https://www.drupal.org/files/issues/realname_autocomplete_views-2261665-9.patch
 
 projects[remove_generator][subdir] = contrib
